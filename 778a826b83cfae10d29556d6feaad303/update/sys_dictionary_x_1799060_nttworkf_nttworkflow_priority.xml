@@ -5,13 +5,13 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Priority</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>4</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
         <name>x_1799060_nttworkf_nttworkflow</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name>sys_dictionary_x_1799060_nttworkf_nttworkflow_priority</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-05 07:06:00</sys_updated_on>
+        <sys_updated_on>2025-08-05 07:47:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
