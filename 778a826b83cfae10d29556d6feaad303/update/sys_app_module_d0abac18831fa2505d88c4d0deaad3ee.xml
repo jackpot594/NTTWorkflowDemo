@@ -13,7 +13,7 @@
         <mobile_title>NTTWorkflow Task</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>4</order>
+        <order>3</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0abac18831fa2505d88c4d0deaad3ee</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>NTTWorkflow Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name>sys_app_module_d0abac18831fa2505d88c4d0deaad3ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-07 08:05:00</sys_updated_on>
+        <sys_updated_on>2025-08-07 10:21:41</sys_updated_on>
         <timeline_page/>
         <title>NTTWorkflow Task</title>
         <uncancelable>false</uncancelable>

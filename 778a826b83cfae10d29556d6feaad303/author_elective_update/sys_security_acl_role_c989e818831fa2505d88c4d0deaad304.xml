@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 07:53:55</sys_created_on>
+        <sys_id>c989e818831fa2505d88c4d0deaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1799060_nttworkf_nttworkflow_task.x_1799060_nttworkf.nttworkflow_task_user</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_security_acl display_value="x_1799060_nttworkf_nttworkflow_task">0d89a818831fa2505d88c4d0deaad3f4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c989e818831fa2505d88c4d0deaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 07:53:55</sys_updated_on>
+        <sys_user_role display_value="x_1799060_nttworkf.nttworkflow_task_user" name="x_1799060_nttworkf.nttworkflow_task_user">f0896c94831fa2505d88c4d0deaad3da</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</application>
+        <file_path/>
+        <instance_id>cc690e0edb7eb59005ef172913961986</instance_id>
+        <instance_name>dev229847</instance_name>
+        <name>sys_security_acl_role_c989e818831fa2505d88c4d0deaad304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 07:53:55</sys_created_on>
+        <sys_id>c989e818831fa2505d88c4d0deaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1799060_nttworkf_nttworkflow_task.x_1799060_nttworkf.nttworkflow_task_user</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_security_acl display_value="x_1799060_nttworkf_nttworkflow_task">0d89a818831fa2505d88c4d0deaad3f4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c989e818831fa2505d88c4d0deaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 07:53:55</sys_updated_on>
+        <sys_user_role display_value="x_1799060_nttworkf.nttworkflow_task_user" name="x_1799060_nttworkf.nttworkflow_task_user">f0896c94831fa2505d88c4d0deaad3da</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1876434584</payload_hash>
+        <record_name>x_1799060_nttworkf_nttworkflow_task.x_1799060_nttworkf.nttworkflow_task_user</record_name>
+        <reverted_from/>
+        <source>1728cd58839ba250d29556d6feaad39b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 10:08:00</sys_created_on>
+        <sys_id>51388198839ba250d29556d6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19884007b690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 10:08:00</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>11388198b89ba2509433ab2c693bda7f</update_guid>
+        <update_guid_history>11388198b89ba2509433ab2c693bda7f:1876434584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1799060_nttworkf_nttworkflow_task.x_1799060_nttworkf.nttworkflow_task_user">b0e809d4839ba250d29556d6feaad352</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 10:10:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>22c35630ac244b90af50a8a68dc29090</sys_id>
+        <sys_metadata>c989e818831fa2505d88c4d0deaad304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1799060_nttworkf_nttworkflow_task.x_1799060_nttworkf.nttworkflow_task_user</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_parent display_value="x_1799060_nttworkf_nttworkflow_task">0d89a818831fa2505d88c4d0deaad3f4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_scope_delete display_value="">875b5fd02a9b4112b984b91fb88024b1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c989e818831fa2505d88c4d0deaad304</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c989e818831fa2505d88c4d0deaad304">51388198839ba250d29556d6feaad37f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 10:10:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
