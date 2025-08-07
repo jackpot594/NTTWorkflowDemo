@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4607000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>通过管理员去发送邮件</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>send_email_as_admin</internal_name>
+        <label_cache>[{"name":"4de2240d-496e-47e6-90d0-e2b063803f32.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","usedInstances":{"58d1ed58-e3da-4028-ab22-38d7a49a22ab":["email-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.body","label":"Input➛Body","reference":"","reference_display":"","type":"html","base_type":"html","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":[null],"56506cac-b681-4226-8336-cc1e1460e69f":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"57c6f1a7-e296-48e4-bd7f-c7bb4fb07930"}},{"name":"subflow.subject","label":"Input➛Subject","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_subject"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_subject"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ee967156-4482-478a-a1dc-cbadf54bfc7d"}},{"name":"subflow.bcc","label":"Input➛BCC","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_bcc"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_bcc"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5e7eefa0-e4af-4db4-bfab-18ddbe752758"}},{"name":"subflow.cc","label":"Input➛CC","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_cc"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_cc"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0ccc62e7-9df8-4113-821d-e05944cd76ac"}},{"name":"subflow.to","label":"Input➛To","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_to"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_to"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b49f3a66-8789-4db6-8025-e06fcf960ae9"}},{"name":"subflow.target_record","label":"Input➛Target Record","reference":"","reference_display":"","type":"document_id","base_type":"document_id","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["record"],"2b4dc379-7b1a-4c2e-92ea-a5c91a09fc6b":["condition"],"56506cac-b681-4226-8336-cc1e1460e69f":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"197f8168-1194-4952-89cb-ff6dcce03076"}}]</label_cache>
+        <master_snapshot>904514508397a250d29556d6feaad3d6</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Send email as admin</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 05:58:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c3f40588357a250d29556d6feaad3ca</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Send email as admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name>sys_hub_flow_5c3f40588357a250d29556d6feaad3ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 07:15:42</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5c3f40588357a250d29556d6feaad3ca^sys_idNOT IN943f40588357a250d29556d6feaad3cd"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5c3f40588357a250d29556d6feaad3ca</id>
+        <name>Send email as admin</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 05:58:54</sys_created_on>
+        <sys_id>943f40588357a250d29556d6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 05:58:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=943f40588357a250d29556d6feaad3cd"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5c3f40588357a250d29556d6feaad3ca^sys_idNOT IN662590508397a250d29556d6feaad31b,6a2590508397a250d29556d6feaad31e,a22590508397a250d29556d6feaad305,a62590508397a250d29556d6feaad308,aa2590508397a250d29556d6feaad30b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ee967156-4482-478a-a1dc-cbadf54bfc7d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>subject</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Subject</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</model>
+        <model_id>5c3f40588357a250d29556d6feaad3ca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>662590508397a250d29556d6feaad31b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:45:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=662590508397a250d29556d6feaad31b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=html,uiTypeLabel=HTML,uiUniqueId=57c6f1a7-e296-48e4-bd7f-c7bb4fb07930</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="HTML">html</internal_type>
+        <label>Body</label>
+        <mandatory>true</mandatory>
+        <max_length>65536</max_length>
+        <model display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</model>
+        <model_id>5c3f40588357a250d29556d6feaad3ca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>6a2590508397a250d29556d6feaad31e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:45:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6a2590508397a250d29556d6feaad31e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b49f3a66-8789-4db6-8025-e06fcf960ae9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>To</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</model>
+        <model_id>5c3f40588357a250d29556d6feaad3ca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:24:59</sys_created_on>
+        <sys_id>a22590508397a250d29556d6feaad305</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:45:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a22590508397a250d29556d6feaad305"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ccc62e7-9df8-4113-821d-e05944cd76ac</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CC</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</model>
+        <model_id>5c3f40588357a250d29556d6feaad3ca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:24:59</sys_created_on>
+        <sys_id>a62590508397a250d29556d6feaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:45:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a62590508397a250d29556d6feaad308"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5e7eefa0-e4af-4db4-bfab-18ddbe752758</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bcc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>BCC</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</model>
+        <model_id>5c3f40588357a250d29556d6feaad3ca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>aa2590508397a250d29556d6feaad30b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:45:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aa2590508397a250d29556d6feaad30b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5c3f40588357a250d29556d6feaad3ca^sys_idNOT IN6e2590508397a250d29556d6feaad347"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>6e2590508397a250d29556d6feaad347</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>jackpotlzh123@outlook.com</sys_updated_by>
+        <sys_updated_on>2025-08-07 07:17:26</sys_updated_on>
+        <ui_id>4de2240d-496e-47e6-90d0-e2b063803f32</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y3W7bNhR+FULXtqvYsR2nV22CYAH6MzRBd9EUAkVSMVeK1EiqiRsY2P0eYcAebk+yQ4mS/JM4cuJt6ZarRIfnHH48/L5D0p9uAk6Dw2CfHoSjONnH43DQH4ThQX8yiQeTJDwYT8I9QoNOIHHKwFMzorT7/opF7gzwL+UmE3j2sbGQKRdUMxkcfvrcCTKsIdgyHRzerAy1nV3gmAlwPcf6kln0oUKxisrOMvdNFclTJm3EK+Mbn+DYj6DTYxiBIIcq7ATs2jJJGcBJsDCsE6RYUmyVntUWzTB9L0VjmHJpIeUrYxTh2DKD7JQhlmIu0BW3U4RRCawXuHzXhn8DcIO+S5UwqAFxWLkknAKiYMEc+ZLC8GkznBxji8+szonNdV1pxQkzZTUpS3Au7NGirXR4n1muZBlicSyqaCXyVL4rixjUCRZ2MjcAhmWuNm6xMDksPDmbqqsPFdgTLosq+qoIRbCov5IzhjWZnnAm3FbLPI3BtxNgazWPc+tgAikEeDXzRAVUNxd4MsGKrUxxlnF5GWVafeXFhAA/7V0K+OglQl1BvOGXsoeJW2sPdg/3TsB+XJg/Ys3dwt9CGgiedwIzM0cCG9MsH+of/ZI79GUxluG46KggnAsmmmf2FUz1lfnFzjteTXuTTXym+w1vF3LuVFEtEDSKcmy4HZFX05rtzWIselcOeC3tbamlklFeSuegH1tKvFQOsh5eLZ+DcFk+d8jmacilFkFrvSzr4u/hPpDERCWB/dqKyR+gifuUEI5GcTyKh+NBw8MJSeg4TkZ4TAYN766gf+oU6y9R0T8X5BCu66GEu60oWoCpRAFNV+SUoZ8qVJuAepXESkEXk6sSAXq/OPF4vUT6jzpuSm4iqxDsppjBIVNDcsbmCLJTbBE3yMB29dC5QtyvaiGig2YqR2luLLhZGFlS39K5tf90hedPCm89XiaLH/wulLl7BQ43nwS4ITaeRlYt6O7mxuSxW0HPqvkcratw3WE7PbaAVh9Sah2nl52BXZGXK6o7q4xecYPNiivPoDXBLZw54dMl//fCbQdc8JQXhChVuXu6042cYuESjQi5le6E3EP3ymE7ureAVtH96Ggd5zZ033/YAfPM9++O73sbn85stMSj+A7Cx/cyPn4Y5Vugqyj/eoXz8dakHz6T/n9C+uFmWpElIgGFf2bE3kp8Pzafb+L+otOWF5z7cVb0P6tR3oZ8GxmMnq86/7oKdk95vJFKSX+5dyo6W+D7RR6GA5Ihh7lruZylhGmlbAyF+VIM0ovgonRjpbPJsETE4a/GXXAEhHeIMy7ERYCMnQlWj5fEOIRHpuCSvYRxoiTw0DLKix2uPIuFwXABx6UqcFajNzcJjazG0iRKp4cJZWwwCQddWDHr7tP+qHuAE9KNJxPcH8fDITzo5/N24GEqhDAhLLOmmSJKclnsqQFMANRx57oKDP/hZfg9YsZyWqVyIvsR8p/SNsssoHQ95uIvhu3Q94W6KNPGCcBd2xqoUsLyrNuALR5nhfFcZatuHlXleyqz3CL31R9d2pfoNdC2FQRjsbaVZ5GldH/h/FvEY63VVftiFj26S4D7dtugpZn+/OP3O3Deb7hjJdBCquxF9R6aHvqhVRI1+7gujyjBBFMWtaGyU80i1juzIakWlOh+z+IM/JFrp2UJqxTvoV2i2hVVeVDGyRemERhRwQQochselV2qW7bcLgdm3hJxe4OTqmhvfk9//a110csib7cx64as/Fq/sfg2v+s2vpvO+mQa13N7eW4v//3WsN07pcXlsn6ml1fLtbumf6FMbSpW3ic/nL9907xOxo98pI+Gw8Ho+X3y6Fd6dkX7VKss82vb8Uv981/HpDpvWSIAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e2590508397a250d29556d6feaad347"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5c3f40588357a250d29556d6feaad3ca^sys_idNOT INe62590508397a250d29556d6feaad34c,ee2590508397a250d29556d6feaad34c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>5c3f40588357a250d29556d6feaad3ca</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.body}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>e62590508397a250d29556d6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fdee3903-082e-4d26-8afc-b99a27b55b6b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>5c3f40588357a250d29556d6feaad3ca</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.body}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>ee2590508397a250d29556d6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>832c7ea0-d1db-4bc8-87f1-076af2f95f18</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>bcc</element>
+        <help/>
+        <hint/>
+        <label>BCC</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>662590508397a250d29556d6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>subject</element>
+        <help/>
+        <hint/>
+        <label>Subject</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>6a2590508397a250d29556d6feaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>6e2590508397a250d29556d6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to</element>
+        <help/>
+        <hint/>
+        <label>To</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:24:59</sys_created_on>
+        <sys_id>a62590508397a250d29556d6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:24:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cc</element>
+        <help/>
+        <hint/>
+        <label>CC</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:00</sys_created_on>
+        <sys_id>aa2590508397a250d29556d6feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>通过管理员去发送邮件</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>send_email_as_admin</internal_name>
+        <label_cache>[{"name":"4de2240d-496e-47e6-90d0-e2b063803f32.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","usedInstances":{"58d1ed58-e3da-4028-ab22-38d7a49a22ab":["email-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.body","label":"Input➛Body","reference":"","reference_display":"","type":"html","base_type":"html","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":[null],"56506cac-b681-4226-8336-cc1e1460e69f":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"57c6f1a7-e296-48e4-bd7f-c7bb4fb07930"}},{"name":"subflow.subject","label":"Input➛Subject","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_subject"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_subject"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ee967156-4482-478a-a1dc-cbadf54bfc7d"}},{"name":"subflow.bcc","label":"Input➛BCC","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_bcc"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_bcc"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5e7eefa0-e4af-4db4-bfab-18ddbe752758"}},{"name":"subflow.cc","label":"Input➛CC","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_cc"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_cc"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0ccc62e7-9df8-4113-821d-e05944cd76ac"}},{"name":"subflow.to","label":"Input➛To","type":"string","base_type":"string","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["ah_to"],"56506cac-b681-4226-8336-cc1e1460e69f":["ah_to"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b49f3a66-8789-4db6-8025-e06fcf960ae9"}},{"name":"subflow.target_record","label":"Input➛Target Record","reference":"","reference_display":"","type":"document_id","base_type":"document_id","usedInstances":{"4de2240d-496e-47e6-90d0-e2b063803f32":["record"],"2b4dc379-7b1a-4c2e-92ea-a5c91a09fc6b":["condition"],"56506cac-b681-4226-8336-cc1e1460e69f":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"197f8168-1194-4952-89cb-ff6dcce03076"}}]</label_cache>
+        <master>true</master>
+        <name>Send email as admin</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>904514508397a250d29556d6feaad3d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 07:15:42</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=904514508397a250d29556d6feaad3d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=904514508397a250d29556d6feaad3d6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=904514508397a250d29556d6feaad3d6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=904514508397a250d29556d6feaad3d6^sys_idNOT IN944514508397a250d29556d6feaad3d7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>904514508397a250d29556d6feaad3d6</id>
+        <name>Send email as admin</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:23</sys_created_on>
+        <sys_id>944514508397a250d29556d6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=944514508397a250d29556d6feaad3d7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=904514508397a250d29556d6feaad3d6^sys_idNOT IN144554508397a250d29556d6feaad318,504554508397a250d29556d6feaad30a,904514508397a250d29556d6feaad3ea,d04514508397a250d29556d6feaad3e3,d04554508397a250d29556d6feaad311"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=html,uiTypeLabel=HTML,uiUniqueId=57c6f1a7-e296-48e4-bd7f-c7bb4fb07930</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="HTML">html</internal_type>
+        <label>Body</label>
+        <mandatory>true</mandatory>
+        <max_length>65536</max_length>
+        <model display_value="Send email as admin">904514508397a250d29556d6feaad3d6</model>
+        <model_id>904514508397a250d29556d6feaad3d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>144554508397a250d29556d6feaad318</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:46:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=144554508397a250d29556d6feaad318"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5e7eefa0-e4af-4db4-bfab-18ddbe752758</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bcc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>BCC</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">904514508397a250d29556d6feaad3d6</model>
+        <model_id>904514508397a250d29556d6feaad3d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>504554508397a250d29556d6feaad30a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:46:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=504554508397a250d29556d6feaad30a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ccc62e7-9df8-4113-821d-e05944cd76ac</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CC</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">904514508397a250d29556d6feaad3d6</model>
+        <model_id>904514508397a250d29556d6feaad3d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:23</sys_created_on>
+        <sys_id>904514508397a250d29556d6feaad3ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:46:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=904514508397a250d29556d6feaad3ea"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b49f3a66-8789-4db6-8025-e06fcf960ae9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>To</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">904514508397a250d29556d6feaad3d6</model>
+        <model_id>904514508397a250d29556d6feaad3d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:23</sys_created_on>
+        <sys_id>d04514508397a250d29556d6feaad3e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:46:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d04514508397a250d29556d6feaad3e3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ee967156-4482-478a-a1dc-cbadf54bfc7d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>subject</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Subject</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send email as admin">904514508397a250d29556d6feaad3d6</model>
+        <model_id>904514508397a250d29556d6feaad3d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>d04554508397a250d29556d6feaad311</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:46:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d04554508397a250d29556d6feaad311"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=904514508397a250d29556d6feaad3d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=904514508397a250d29556d6feaad3d6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=904514508397a250d29556d6feaad3d6"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=904514508397a250d29556d6feaad3d6^sys_idNOT INa84554508397a250d29556d6feaad330"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send email as admin">904514508397a250d29556d6feaad3d6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>a84554508397a250d29556d6feaad330</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:46:30</sys_updated_on>
+        <ui_id>4de2240d-496e-47e6-90d0-e2b063803f32</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y3W7bNhR+FULXtqvYsR2nV22CYAH6MzRBd9EUAkVSMVeK1EiqiRsY2P0eYcAebk+yQ4mS/JM4cuJt6ZarRIfnHH48/L5D0p9uAk6Dw2CfHoSjONnH43DQH4ThQX8yiQeTJDwYT8I9QoNOIHHKwFMzorT7/opF7gzwL+UmE3j2sbGQKRdUMxkcfvrcCTKsIdgyHRzerAy1nV3gmAlwPcf6kln0oUKxisrOMvdNFclTJm3EK+Mbn+DYj6DTYxiBIIcq7ATs2jJJGcBJsDCsE6RYUmyVntUWzTB9L0VjmHJpIeUrYxTh2DKD7JQhlmIu0BW3U4RRCawXuHzXhn8DcIO+S5UwqAFxWLkknAKiYMEc+ZLC8GkznBxji8+szonNdV1pxQkzZTUpS3Au7NGirXR4n1muZBlicSyqaCXyVL4rixjUCRZ2MjcAhmWuNm6xMDksPDmbqqsPFdgTLosq+qoIRbCov5IzhjWZnnAm3FbLPI3BtxNgazWPc+tgAikEeDXzRAVUNxd4MsGKrUxxlnF5GWVafeXFhAA/7V0K+OglQl1BvOGXsoeJW2sPdg/3TsB+XJg/Ys3dwt9CGgiedwIzM0cCG9MsH+of/ZI79GUxluG46KggnAsmmmf2FUz1lfnFzjteTXuTTXym+w1vF3LuVFEtEDSKcmy4HZFX05rtzWIselcOeC3tbamlklFeSuegH1tKvFQOsh5eLZ+DcFk+d8jmacilFkFrvSzr4u/hPpDERCWB/dqKyR+gifuUEI5GcTyKh+NBw8MJSeg4TkZ4TAYN766gf+oU6y9R0T8X5BCu66GEu60oWoCpRAFNV+SUoZ8qVJuAepXESkEXk6sSAXq/OPF4vUT6jzpuSm4iqxDsppjBIVNDcsbmCLJTbBE3yMB29dC5QtyvaiGig2YqR2luLLhZGFlS39K5tf90hedPCm89XiaLH/wulLl7BQ43nwS4ITaeRlYt6O7mxuSxW0HPqvkcratw3WE7PbaAVh9Sah2nl52BXZGXK6o7q4xecYPNiivPoDXBLZw54dMl//fCbQdc8JQXhChVuXu6042cYuESjQi5le6E3EP3ymE7ureAVtH96Ggd5zZ033/YAfPM9++O73sbn85stMSj+A7Cx/cyPn4Y5Vugqyj/eoXz8dakHz6T/n9C+uFmWpElIgGFf2bE3kp8Pzafb+L+otOWF5z7cVb0P6tR3oZ8GxmMnq86/7oKdk95vJFKSX+5dyo6W+D7RR6GA5Ihh7lruZylhGmlbAyF+VIM0ovgonRjpbPJsETE4a/GXXAEhHeIMy7ERYCMnQlWj5fEOIRHpuCSvYRxoiTw0DLKix2uPIuFwXABx6UqcFajNzcJjazG0iRKp4cJZWwwCQddWDHr7tP+qHuAE9KNJxPcH8fDITzo5/N24GEqhDAhLLOmmSJKclnsqQFMANRx57oKDP/hZfg9YsZyWqVyIvsR8p/SNsssoHQ95uIvhu3Q94W6KNPGCcBd2xqoUsLyrNuALR5nhfFcZatuHlXleyqz3CL31R9d2pfoNdC2FQRjsbaVZ5GldH/h/FvEY63VVftiFj26S4D7dtugpZn+/OP3O3Deb7hjJdBCquxF9R6aHvqhVRI1+7gujyjBBFMWtaGyU80i1juzIakWlOh+z+IM/JFrp2UJqxTvoV2i2hVVeVDGyRemERhRwQQochselV2qW7bcLgdm3hJxe4OTqmhvfk9//a110csib7cx64as/Fq/sfg2v+s2vpvO+mQa13N7eW4v//3WsN07pcXlsn6ml1fLtbumf6FMbSpW3ic/nL9907xOxo98pI+Gw8Ho+X3y6Fd6dkX7VKss82vb8Uv981/HpDpvWSIAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a84554508397a250d29556d6feaad330"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=904514508397a250d29556d6feaad3d6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=904514508397a250d29556d6feaad3d6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=904514508397a250d29556d6feaad3d6^sys_idNOT IN204554508397a250d29556d6feaad331,a04554508397a250d29556d6feaad331"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>904514508397a250d29556d6feaad3d6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.body}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>204554508397a250d29556d6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>832c7ea0-d1db-4bc8-87f1-076af2f95f18</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>904514508397a250d29556d6feaad3d6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.body}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>a04554508397a250d29556d6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fdee3903-082e-4d26-8afc-b99a27b55b6b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=904514508397a250d29556d6feaad3d6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to</element>
+        <help/>
+        <hint/>
+        <label>To</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:23</sys_created_on>
+        <sys_id>184514508397a250d29556d6feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>bcc</element>
+        <help/>
+        <hint/>
+        <label>BCC</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>584554508397a250d29556d6feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>6c4554508397a250d29556d6feaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>subject</element>
+        <help/>
+        <hint/>
+        <label>Subject</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>984554508397a250d29556d6feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cc</element>
+        <help/>
+        <hint/>
+        <label>CC</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_id>d44554508397a250d29556d6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 06:25:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_904514508397a250d29556d6feaad3d6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_904514508397a250d29556d6feaad3d6"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>5c3f40588357a250d29556d6feaad3ca</sys_id>
+        <latest_snapshot>904514508397a250d29556d6feaad3d6</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch5-06-11-2025_06-25-2025_1836.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5c3f40588357a250d29556d6feaad3ca"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5c3f40588357a250d29556d6feaad3ca^sys_idNOT IN284554508397a250d29556d6feaad33a"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"284554508397a250d29556d6feaad33a","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Send email as admin">5c3f40588357a250d29556d6feaad3ca</plan_id>
+        <snapshot>a221201483d7a250d29556d6feaad34d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 06:25:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>284554508397a250d29556d6feaad33a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 07:15:42</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
