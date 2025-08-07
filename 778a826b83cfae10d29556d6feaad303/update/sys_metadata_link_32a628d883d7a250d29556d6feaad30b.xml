@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
-        <documentkey>c6e6477383cf22505d88c4d0deaad36a</documentkey>
+        <documentkey>503352bb83472250d29556d6feaad335</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_account">
     <sys_email_account action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <authentication>password</authentication>
         <connection_security>ssl</connection_security>
-        <email_user_label/>
+        <email_user_label>tester</email_user_label>
         <enable_debug_output>false</enable_debug_output>
         <enable_ssl>false</enable_ssl>
         <enable_tls>false</enable_tls>
         <from/>
         <keystore/>
-        <name>Gmail_inbound</name>
-        <password>﷞﷟﷒2ce4d6fb83472250d29556d6feaad300﷬﷔1﷬﷭qKMDrcFnaIwChLDmAqPwYg==tyY_5DMHChppZLtXnTOxkLWM40q1UsHNz8V3ddTnAlo=﷮﷯</password>
-        <port>995</port>
-        <server>pop.gmail.com</server>
+        <name>TestSend gmail IMAP</name>
+        <password>﷞﷟﷒2ce4d6fb83472250d29556d6feaad300﷬﷔1﷬﷭fB_Bs1EFWXzRtUJ3dv78jw==zeRfqJvrTGROB5LdMkGH8VnYrZ39rYbkv0KAkzTlT08=﷮﷯</password>
+        <port>993</port>
+        <server>imap.gmail.com</server>
         <servicenow_configured>false</servicenow_configured>
         <session_properties/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-06 06:08:46</sys_created_on>
-        <sys_id>c6e6477383cf22505d88c4d0deaad36a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2025-08-06 02:26:03</sys_created_on>
+        <sys_id>503352bb83472250d29556d6feaad335</sys_id>
+        <sys_mod_count>20</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-07 01:02:34</sys_updated_on>
+        <sys_updated_on>2025-08-06 10:24:09</sys_updated_on>
         <system_address_filter/>
-        <type>pop3</type>
+        <type>imap</type>
         <user_name>wflow9462@gmail.com</user_name>
     </sys_email_account>
 </record_update>
 ]]></payload>
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-06 06:15:48</sys_created_on>
-        <sys_id>ce794ff783cf22505d88c4d0deaad30c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Gmail_inbound</sys_name>
+        <sys_created_on>2025-08-07 07:41:28</sys_created_on>
+        <sys_id>32a628d883d7a250d29556d6feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestSend gmail IMAP</sys_name>
         <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
-        <sys_update_name>sys_metadata_link_ce794ff783cf22505d88c4d0deaad30c</sys_update_name>
+        <sys_update_name>sys_metadata_link_32a628d883d7a250d29556d6feaad30b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-07 07:41:28</sys_updated_on>
         <tablename>sys_email_account</tablename>
