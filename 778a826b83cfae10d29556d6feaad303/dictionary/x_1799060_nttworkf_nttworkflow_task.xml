@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3259ec94831fa2505d88c4d0deaad360" extends="task" label="NTTWorkflow Task" max_length="40" name="x_1799060_nttworkf_nttworkflow_task" type="collection">
+        <element display="true" label="Request from" max_length="40" name="request_from" type="string"/>
+    </element>
+</database>
