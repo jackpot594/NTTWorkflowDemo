@@ -11,7 +11,7 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_1799060_nttworkf_nttworkflow</collection>
+        <collection>x_1799060_nttworkf_nttworkflow_task</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	// Add your code here
 	if (current.u_tricket_number) {
-		var gr = new GlideRecord('x_1799060_nttworkf_nttworkflow');
+		var gr = new GlideRecord('x_1799060_nttworkf_nttworkflow_task');
 		gr.addQuery('u_tricket_number', current.u_tricket_number);
 		gr.query();
 		if (gr.next()) {
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ea3a52083932650d29556d6feaad342</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>VerifyTricketNumberDuplication</sys_name>
         <sys_overrides/>
         <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name>sys_script_1ea3a52083932650d29556d6feaad342</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 06:48:11</sys_updated_on>
+        <sys_updated_on>2025-08-08 09:36:09</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
