@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>ntt_notification_flow</internal_name>
-        <label_cache>[{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record","label":"2 - Look Up Record➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"SLA Task_1.task_sla_record.sys_id","label":"Trigger➛Task SLA Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task_sla","column_name":"sys_id"},{"name":"SLA Task_1.sla_flow_inputs","label":"Trigger➛sla_flow_inputs","type":"object","base_type":"object"},{"name":"SLA Task_1.task_sla_record","label":"Trigger➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record","label":"2 - Look Up Record➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.assigned_to","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record","label":"2 - Look Up Record➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","usedInstances":{"3bc5f32a-6f4d-443d-8389-2615699d43e4":["instance","param1"],"e8e03816-4031-4a04-b3c4-a07a91c2825f":["instance"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to","usedInstances":{"3bc5f32a-6f4d-443d-8389-2615699d43e4":["param1"],"e8e03816-4031-4a04-b3c4-a07a91c2825f":["param1"]}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager.sys_id","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to➛Manager➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.sys_id","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"}]</label_cache>
+        <label_cache>[{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record","label":"2 - Look Up Record➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"SLA Task_1.task_sla_record.sys_id","label":"Trigger➛Task SLA Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task_sla","column_name":"sys_id"},{"name":"SLA Task_1.sla_flow_inputs","label":"Trigger➛sla_flow_inputs","type":"object","base_type":"object"},{"name":"SLA Task_1.task_sla_record","label":"Trigger➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference"},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record","label":"2 - Look Up Record➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f86c36ba-ff4d-4b25-a093-4cefb827f99e.Record.task.assigned_to","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"c9d13231-0089-4f10-91ea-2600908e0d7e.Record.task.assigned_to","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record","label":"2 - Look Up Record➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA Record","type":"reference","base_type":"reference","usedInstances":{"3bc5f32a-6f4d-443d-8389-2615699d43e4":["instance","param1"],"e8e03816-4031-4a04-b3c4-a07a91c2825f":["instance"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to","usedInstances":{"3bc5f32a-6f4d-443d-8389-2615699d43e4":["param1"],"e8e03816-4031-4a04-b3c4-a07a91c2825f":["param1"]}},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.manager.sys_id","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to➛Manager➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"e333b600-57da-4443-9ad7-51adc406f043.Record.task.assigned_to.sys_id","label":"2 - Look Up Record➛Task SLA Record➛Task➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"}]</label_cache>
         <master_snapshot>f0e0eda0839726505d88c4d0deaad315</master_snapshot>
         <master_snapshot_digest/>
         <name>NTT Notification flow</name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0310ad60839726505d88c4d0deaad328</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>NTT Notification flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name>sys_hub_flow_0310ad60839726505d88c4d0deaad328</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 09:46:52</sys_updated_on>
+        <sys_updated_on>2025-08-08 10:08:05</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -180,7 +180,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a988ea8835b26505d88c4d0deaad39d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -188,7 +188,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 09:32:52</sys_updated_on>
+        <sys_updated_on>2025-08-08 10:08:41</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -412,10 +412,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-08 06:30:56</sys_created_on>
         <sys_id>1f10ad60839726505d88c4d0deaad365</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 09:32:50</sys_updated_on>
+        <sys_updated_on>2025-08-08 10:08:05</sys_updated_on>
         <ui_id>f06d035d-c651-4c1f-9522-ac3c15641c8d</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXU/bMBT9K1me08hpkjJ4Q5uQJo0hAeJloOjGdloLx85sh9JV/e+7jhOoRtGmsYc97C0+9+vcj6NsY927rnf2Wp9aK5YqPvl6l8RCeQy/t7GClscnMdWKCSe0qgYgiR9A9t4QwjiLrnUkbMRE03DDlYucjs5BwZKbSDfRnhsGM2E7CZubt+SgKyEZegXGHRjk5biJT7Y/mdym45WEmkssdeWMUEsMFwxfDYEmO6YZzeeLfE7I/H2R1Yu8zuYsBw45+k2BH6YBRJ8HJHl1Mr4e4naqpA3ztDKSxPzRccU4lm5AWp7ELSgGTpvNE2I4sAsln4GVUA7Txd750YrvmHtelt5xGBLlwfj0rMbhBpiutKD8ovMEA+KglmMM1bJv1ZfQh18Lb6CXbloLIr3FfLzzpD2LkVJztdLry6ngmVBDg6NRagry6QUOx1D3jlu/GC55i4mqFroOh1N1Rj+IIRi5tOlS4iNtpF5jUb/rFKgnnuKMID1D/OMA34ARvotzTIPBgWYNVtBquFxM5wy2sBvGUn3rPaHQ4NhKFaaBDpYa0blTrPPAR9a75OXZ7138dsvzPK8XhMzKIwazoijy2TGwo1mZAaMFWTSkyNNLTnHzqQN7n8J4uZXTaRsOOrUbWwm227277QnJ2RuzTtleiutfp/s3dHwMZVNmpDys42JxSMcHFPy6eOe/EK8/t9/ULiHkv3j3xStsFUQ49jYU/2Pt3nmhhgo23A3jVFgkcu2xT9OfzRs2eACC7kNrbe59C8/Y7gdjl7iQIwcAAA==</values>
@@ -436,11 +436,11 @@
         <sys_created_on>2025-08-08 06:30:56</sys_created_on>
         <sys_id>9710ad60839726505d88c4d0deaad33a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>sla_flow_inputs</sys_name>
+        <sys_name/>
         <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0310ad60839726505d88c4d0deaad328_sla_flow_inputs_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-08 06:30:56</sys_updated_on>
         <url/>
@@ -459,11 +459,11 @@
         <sys_created_on>2025-08-08 06:30:56</sys_created_on>
         <sys_id>d710ad60839726505d88c4d0deaad337</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>task_sla_record</sys_name>
+        <sys_name/>
         <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0310ad60839726505d88c4d0deaad328_task_sla_record_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-08 06:30:56</sys_updated_on>
         <url/>
@@ -543,7 +543,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a988ea8835b26505d88c4d0deaad39d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -551,7 +551,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 09:32:52</sys_updated_on>
+        <sys_updated_on>2025-08-08 10:08:41</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
