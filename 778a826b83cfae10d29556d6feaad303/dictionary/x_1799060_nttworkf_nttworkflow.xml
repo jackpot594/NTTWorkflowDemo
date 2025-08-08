@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="db5b4a6f83cfae10d29556d6feaad337" label="NTTWorkflow" max_length="40" name="x_1799060_nttworkf_nttworkflow" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Tricket Number" max_length="100" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sender" max_length="40" name="u_sender" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="4" label="Priority" max_length="100" name="priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="4" value="4"/>
@@ -9,5 +9,6 @@
                 <element inactive_on_update="false" label="1" value="1"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Tricket Number" max_length="40" name="u_tricket_number" read_only="true" reference_qual="null" reference_qual_condition="null" type="string"/>
     </element>
 </database>

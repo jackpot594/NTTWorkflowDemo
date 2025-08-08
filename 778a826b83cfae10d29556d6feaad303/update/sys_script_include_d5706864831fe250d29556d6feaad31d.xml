@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1799060_nttworkf.NttcaAutoNumberAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>获取NTT Workflow记录数量</description>
+        <mobile_callable>false</mobile_callable>
+        <name>NttcaAutoNumberAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var NttcaAutoNumberAjax = Class.create();
+NttcaAutoNumberAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    generateNumber: function() {
+        var today = new GlideDate();
+        var yymmdd = today.getByFormat('yyMMdd');
+		var table = this.getParameter('sysparm_table');
+
+        var gr = new GlideRecord(table);
+        gr.addQuery('u_tricket_number', 'STARTSWITH', "Nttca's" + yymmdd);
+        gr.orderByDesc('u_tricket_number');
+        gr.setLimit(1);
+        gr.query();
+        var num = 1;
+        if (gr.next()) {
+            var val = gr.u_tricket_number.toString();
+            var last3 = val.slice(-3);
+            var n = parseInt(last3, 10);
+            if (!isNaN(n)) num = n + 1;
+        }
+        var newNum = num.toString().padStart(3, '0');
+		
+        return "Nttca's" + yymmdd + newNum;
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 01:54:37</sys_created_on>
+        <sys_id>d5706864831fe250d29556d6feaad31d</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>NttcaAutoNumberAjax</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name>sys_script_include_d5706864831fe250d29556d6feaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 07:26:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

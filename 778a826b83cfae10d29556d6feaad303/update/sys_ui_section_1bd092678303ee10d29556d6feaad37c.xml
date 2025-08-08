@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="1bd092678303ee10d29556d6feaad37c" sys_domain="global" table="x_1799060_nttworkf_nttworkflow" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>u_tricket_number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 07:40:12</sys_created_on>
-            <sys_id>b033562b8303ee10d29556d6feaad3c4</sys_id>
+            <sys_created_on>2025-08-08 08:00:17</sys_created_on>
+            <sys_id>0894f96883d32650d29556d6feaad393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1799060_nttworkf_nttworkflow" sys_domain="global" view="Default view">1bd092678303ee10d29556d6feaad37c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 07:40:12</sys_updated_on>
+            <sys_updated_on>2025-08-08 08:00:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 07:40:12</sys_created_on>
-            <sys_id>b833562b8303ee10d29556d6feaad3c4</sys_id>
+            <sys_created_on>2025-08-08 08:00:17</sys_created_on>
+            <sys_id>0094f96883d32650d29556d6feaad394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1799060_nttworkf_nttworkflow" sys_domain="global" view="Default view">1bd092678303ee10d29556d6feaad37c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 07:40:12</sys_updated_on>
+            <sys_updated_on>2025-08-08 08:00:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>priority</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 07:40:12</sys_created_on>
-            <sys_id>b033562b8303ee10d29556d6feaad3c5</sys_id>
+            <sys_created_on>2025-08-08 08:00:17</sys_created_on>
+            <sys_id>0894f96883d32650d29556d6feaad394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1799060_nttworkf_nttworkflow" sys_domain="global" view="Default view">1bd092678303ee10d29556d6feaad37c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 07:40:12</sys_updated_on>
+            <sys_updated_on>2025-08-08 08:00:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
