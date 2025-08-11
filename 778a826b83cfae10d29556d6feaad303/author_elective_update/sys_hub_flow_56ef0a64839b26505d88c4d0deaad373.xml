@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=416000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-yokohama-12-18-2024__patch5-06-11-2025_06-25-2025_1836.zip</compiler_build>
+        <copied_from>0b864ee4835b26505d88c4d0deaad3b2</copied_from>
+        <copied_from_name>Global Create Event</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy_of_global_create_event</internal_name>
+        <label_cache>[{"name":"subflow.table","label":"Input➛Table","type":"string","base_type":"string","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["table"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a786794e-d34f-4f98-b890-15b19a1efbe5"}},{"name":"subflow.param1","label":"Input➛Param1","reference":"sn_ci_analytics_st_users","reference_display":"Users","type":"reference","base_type":"reference","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["parm1"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e59f420-5feb-4db6-8a62-6498c9b25c58","uiTypeLabel":"Reference"}},{"name":"subflow.name","label":"Input➛Name","type":"string","base_type":"string","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["name"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"455e641a-1419-429f-84e6-2c8f306bafa5"}},{"name":"subflow.instance","label":"Input➛Instance","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["instance"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"67924760-c184-4ab8-86fd-565939fd616f","uiTypeLabel":"Reference"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Copy of Global Create Event</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56ef0a64839b26505d88c4d0deaad373</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Global Create Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name>sys_hub_flow_56ef0a64839b26505d88c4d0deaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:47</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_variable_value action="DELETE" query="document_key=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN16ef0a64839b26505d88c4d0deaad374"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>56ef0a64839b26505d88c4d0deaad373</id>
+        <name>Copy of Global Create Event</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>16ef0a64839b26505d88c4d0deaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=16ef0a64839b26505d88c4d0deaad374"/>
+    <sys_hub_flow_input action="DELETE" query="model=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN22ef0a64839b26505d88c4d0deaad380,26ef0a64839b26505d88c4d0deaad383,2aef0a64839b26505d88c4d0deaad387,5aef0a64839b26505d88c4d0deaad37a"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=455e641a-1419-429f-84e6-2c8f306bafa5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Global Create Event">56ef0a64839b26505d88c4d0deaad373</model>
+        <model_id>56ef0a64839b26505d88c4d0deaad373</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>22ef0a64839b26505d88c4d0deaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=22ef0a64839b26505d88c4d0deaad380"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=4e59f420-5feb-4db6-8a62-6498c9b25c58</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_ci_analytics_st_users</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>param1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Param1</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Global Create Event">56ef0a64839b26505d88c4d0deaad373</model>
+        <model_id>56ef0a64839b26505d88c4d0deaad373</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_ci_analytics_st_users">sn_ci_analytics_st_users</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>26ef0a64839b26505d88c4d0deaad383</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=26ef0a64839b26505d88c4d0deaad383"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a786794e-d34f-4f98-b890-15b19a1efbe5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Table</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Global Create Event">56ef0a64839b26505d88c4d0deaad373</model>
+        <model_id>56ef0a64839b26505d88c4d0deaad373</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>2aef0a64839b26505d88c4d0deaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=2aef0a64839b26505d88c4d0deaad387"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=67924760-c184-4ab8-86fd-565939fd616f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>task_sla</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Instance</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Global Create Event">56ef0a64839b26505d88c4d0deaad373</model>
+        <model_id>56ef0a64839b26505d88c4d0deaad373</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="task_sla">task_sla</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>5aef0a64839b26505d88c4d0deaad37a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=5aef0a64839b26505d88c4d0deaad37a"/>
+    <sys_hub_flow_output action="DELETE" query="model=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN2aef0a64839b26505d88c4d0deaad3b1"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Global Create Event">56ef0a64839b26505d88c4d0deaad373</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:47</sys_created_on>
+        <sys_id>2aef0a64839b26505d88c4d0deaad3b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:47</sys_updated_on>
+        <ui_id>81a1d64a-148b-4830-a287-63550227ca86</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8lYBnQZCs1Eh0K5L6lAfQFL6kqbASVzYBilJJyolr6N+7FCnHcGO0BQoU8Y0zu+TMaNePOyY4y9k8xeTDZTqvsjTLZkkyuzhPy3lWpjOeAeI5i5iCBqnSQimxGA8R24DsHWi2BjeoLEFcmE7CdhmYTwGu1kJyjYrlj08R60DTBRY1y3dH1J/KkVCipNIvTs8JeXbbvYndHPae3Xmi1dzpSSKGLxYVRxJSgzQYsQYUB9vqLcut7gnQCPxeye2+Yi3IZc6Yq30x4gc9e5G4uhrJWYWe2x+LkJKH62uw8EA3V7bXobRat6JC4zPhWEMv7dUh5gvuOyta5VtGm6G7lX2j7nwkbH/B9FEI6Q2JwM75dMqDjfph3T5/nlQuhBojCaRsK5D7E1irRdlbp2fHUGJDFxUNdJ1Qq6LT7UaMzaSliVeSDnEt22d61IiViqFywmOKFeIF4dcjvAQtnItbuoaah8hN1pUEY169UIjF994p8c6Ch8LH4FoqLTr7kR7YYJA7RNOcc0wuTw5WWr4O0jja5mDGhTIWKJWvfZJkfLczfekMxRM+DN9c6zHtMKJo4pv0mBvXICV2/HTH7AgOw6879R+V/OUa/z7taY0XAiU3b8Q/7TA2FIHFwn+Ooz0O5NkykGGX03+1y+k8GX/vaKO9uXe/0Af/3SdW++knV8IousQGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2aef0a64839b26505d88c4d0deaad3b1"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN66ef0a64839b26505d88c4d0deaad3b0"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <block display_value="">6618c2a8835b26505d88c4d0deaad390</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Global Create Event">56ef0a64839b26505d88c4d0deaad373</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:47</sys_created_on>
+        <sys_id>66ef0a64839b26505d88c4d0deaad3b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:47</sys_updated_on>
+        <ui_id>a1f25caf-0d74-4310-a222-38d70924836f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_hub_flow_variable action="DELETE" query="model=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_documentation action="DELETE">
+        <element>instance</element>
+        <help/>
+        <hint/>
+        <label>Instance</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>22ef0a64839b26505d88c4d0deaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>name</element>
+        <help/>
+        <hint/>
+        <label>Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>26ef0a64839b26505d88c4d0deaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>param1</element>
+        <help/>
+        <hint/>
+        <label>Param1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>2aef0a64839b26505d88c4d0deaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table</element>
+        <help/>
+        <hint/>
+        <label>Table</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 09:59:46</sys_created_on>
+        <sys_id>2eef0a64839b26505d88c4d0deaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 09:59:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=56ef0a64839b26505d88c4d0deaad373"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=56ef0a64839b26505d88c4d0deaad373"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</application>
+        <file_path/>
+        <instance_id>cc690e0edb7eb59005ef172913961986</instance_id>
+        <instance_name>dev229847</instance_name>
+        <name>sys_hub_flow_56ef0a64839b26505d88c4d0deaad373</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;
+    &lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;acls/&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;annotation/&gt;
+        &lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=416000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;
+        &lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;
+        &lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;
+        &lt;category/&gt;
+        &lt;compiler_build&gt;glide-yokohama-12-18-2024__patch5-06-11-2025_06-25-2025_1836.zip&lt;/compiler_build&gt;
+        &lt;copied_from&gt;0b864ee4835b26505d88c4d0deaad3b2&lt;/copied_from&gt;
+        &lt;copied_from_name&gt;Global Create Event&lt;/copied_from_name&gt;
+        &lt;description/&gt;
+        &lt;display_name_after_preview/&gt;
+        &lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;
+        &lt;generation_source/&gt;
+        &lt;internal_name&gt;copy_of_global_create_event&lt;/internal_name&gt;
+        &lt;label_cache&gt;[{"name":"subflow.table","label":"Input➛Table","type":"string","base_type":"string","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["table"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a786794e-d34f-4f98-b890-15b19a1efbe5"}},{"name":"subflow.param1","label":"Input➛Param1","reference":"sn_ci_analytics_st_users","reference_display":"Users","type":"reference","base_type":"reference","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["parm1"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e59f420-5feb-4db6-8a62-6498c9b25c58","uiTypeLabel":"Reference"}},{"name":"subflow.name","label":"Input➛Name","type":"string","base_type":"string","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["name"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"455e641a-1419-429f-84e6-2c8f306bafa5"}},{"name":"subflow.instance","label":"Input➛Instance","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","usedInstances":{"81a1d64a-148b-4830-a287-63550227ca86":["instance"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"67924760-c184-4ab8-86fd-565939fd616f","uiTypeLabel":"Reference"}}]&lt;/label_cache&gt;
+        &lt;latest_snapshot/&gt;
+        &lt;master_snapshot/&gt;
+        &lt;master_snapshot_digest/&gt;
+        &lt;name&gt;Copy of Global Create Event&lt;/name&gt;
+        &lt;natlang/&gt;
+        &lt;outputs/&gt;
+        &lt;pre_compiled&gt;false&lt;/pre_compiled&gt;
+        &lt;remote_trigger_id/&gt;
+        &lt;run_as&gt;system&lt;/run_as&gt;
+        &lt;run_with_roles/&gt;
+        &lt;sc_callable&gt;false&lt;/sc_callable&gt;
+        &lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;
+        &lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;
+        &lt;status&gt;draft&lt;/status&gt;
+        &lt;substatus/&gt;
+        &lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;56ef0a64839b26505d88c4d0deaad373&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Copy of Global Create Event&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_hub_flow_56ef0a64839b26505d88c4d0deaad373&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:47&lt;/sys_updated_on&gt;
+        &lt;type&gt;subflow&lt;/type&gt;
+        &lt;updation_source/&gt;
+        &lt;version&gt;2&lt;/version&gt;
+    &lt;/sys_hub_flow&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_hub_flow_stage action="delete_multiple" query="flow=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_flow_cat_variable_model action="delete_multiple" query="id=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN16ef0a64839b26505d88c4d0deaad374"/&gt;
+    &lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;
+        &lt;id&gt;56ef0a64839b26505d88c4d0deaad373&lt;/id&gt;
+        &lt;name&gt;Copy of Global Create Event&lt;/name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;16ef0a64839b26505d88c4d0deaad374&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+    &lt;/sys_flow_cat_variable_model&gt;
+    &lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=16ef0a64839b26505d88c4d0deaad374"/&gt;
+    &lt;sys_hub_flow_input action="delete_multiple" query="model=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN22ef0a64839b26505d88c4d0deaad380,26ef0a64839b26505d88c4d0deaad383,2aef0a64839b26505d88c4d0deaad387,5aef0a64839b26505d88c4d0deaad37a"/&gt;
+    &lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=455e641a-1419-429f-84e6-2c8f306bafa5&lt;/attributes&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;name&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;formula/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;
+        &lt;label&gt;Name&lt;/label&gt;
+        &lt;mandatory&gt;true&lt;/mandatory&gt;
+        &lt;max_length&gt;8000&lt;/max_length&gt;
+        &lt;model display_value="Copy of Global Create Event"&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model&gt;
+        &lt;model_id&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model_id&gt;
+        &lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference/&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;22ef0a64839b26505d88c4d0deaad380&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;virtual_type&gt;script&lt;/virtual_type&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_hub_flow_input&gt;
+    &lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=22ef0a64839b26505d88c4d0deaad380"/&gt;
+    &lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=4e59f420-5feb-4db6-8a62-6498c9b25c58&lt;/attributes&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table&gt;sn_ci_analytics_st_users&lt;/choice_table&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;param1&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;formula/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;
+        &lt;label&gt;Param1&lt;/label&gt;
+        &lt;mandatory&gt;true&lt;/mandatory&gt;
+        &lt;max_length&gt;32&lt;/max_length&gt;
+        &lt;model display_value="Copy of Global Create Event"&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model&gt;
+        &lt;model_id&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model_id&gt;
+        &lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;3&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference display_value="" name="sn_ci_analytics_st_users"&gt;sn_ci_analytics_st_users&lt;/reference&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;26ef0a64839b26505d88c4d0deaad383&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;virtual_type&gt;script&lt;/virtual_type&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_hub_flow_input&gt;
+    &lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=26ef0a64839b26505d88c4d0deaad383"/&gt;
+    &lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a786794e-d34f-4f98-b890-15b19a1efbe5&lt;/attributes&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;table&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;formula/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;
+        &lt;label&gt;Table&lt;/label&gt;
+        &lt;mandatory&gt;true&lt;/mandatory&gt;
+        &lt;max_length&gt;8000&lt;/max_length&gt;
+        &lt;model display_value="Copy of Global Create Event"&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model&gt;
+        &lt;model_id&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model_id&gt;
+        &lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;4&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference/&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2aef0a64839b26505d88c4d0deaad387&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;virtual_type&gt;script&lt;/virtual_type&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_hub_flow_input&gt;
+    &lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2aef0a64839b26505d88c4d0deaad387"/&gt;
+    &lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=67924760-c184-4ab8-86fd-565939fd616f&lt;/attributes&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table&gt;task_sla&lt;/choice_table&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;instance&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;formula/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;
+        &lt;label&gt;Instance&lt;/label&gt;
+        &lt;mandatory&gt;true&lt;/mandatory&gt;
+        &lt;max_length&gt;32&lt;/max_length&gt;
+        &lt;model display_value="Copy of Global Create Event"&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model&gt;
+        &lt;model_id&gt;56ef0a64839b26505d88c4d0deaad373&lt;/model_id&gt;
+        &lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference display_value="" name="task_sla"&gt;task_sla&lt;/reference&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5aef0a64839b26505d88c4d0deaad37a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;virtual_type&gt;script&lt;/virtual_type&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_hub_flow_input&gt;
+    &lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5aef0a64839b26505d88c4d0deaad37a"/&gt;
+    &lt;sys_hub_flow_output action="delete_multiple" query="model=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN2aef0a64839b26505d88c4d0deaad3b1"/&gt;
+    &lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;
+        &lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;
+        &lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;
+        &lt;attributes&gt;labelCacheCleanUpExecuted=true&lt;/attributes&gt;
+        &lt;comment/&gt;
+        &lt;compiled_snapshot&gt;2de05916c31332002841b63b12d3aee1&lt;/compiled_snapshot&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Copy of Global Create Event"&gt;56ef0a64839b26505d88c4d0deaad373&lt;/flow&gt;
+        &lt;generation_source/&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;parent_ui_id/&gt;
+        &lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:47&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2aef0a64839b26505d88c4d0deaad3b1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:47&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;81a1d64a-148b-4830-a287-63550227ca86&lt;/ui_id&gt;
+        &lt;updation_source/&gt;
+        &lt;values&gt;H4sIAAAAAAAA/9VUy27bMBD8lYBnQZCs1Eh0K5L6lAfQFL6kqbASVzYBilJJyolr6N+7FCnHcGO0BQoU8Y0zu+TMaNePOyY4y9k8xeTDZTqvsjTLZkkyuzhPy3lWpjOeAeI5i5iCBqnSQimxGA8R24DsHWi2BjeoLEFcmE7CdhmYTwGu1kJyjYrlj08R60DTBRY1y3dH1J/KkVCipNIvTs8JeXbbvYndHPae3Xmi1dzpSSKGLxYVRxJSgzQYsQYUB9vqLcut7gnQCPxeye2+Yi3IZc6Yq30x4gc9e5G4uhrJWYWe2x+LkJKH62uw8EA3V7bXobRat6JC4zPhWEMv7dUh5gvuOyta5VtGm6G7lX2j7nwkbH/B9FEI6Q2JwM75dMqDjfph3T5/nlQuhBojCaRsK5D7E1irRdlbp2fHUGJDFxUNdJ1Qq6LT7UaMzaSliVeSDnEt22d61IiViqFywmOKFeIF4dcjvAQtnItbuoaah8hN1pUEY169UIjF994p8c6Ch8LH4FoqLTr7kR7YYJA7RNOcc0wuTw5WWr4O0jja5mDGhTIWKJWvfZJkfLczfekMxRM+DN9c6zHtMKJo4pv0mBvXICV2/HTH7AgOw6879R+V/OUa/z7taY0XAiU3b8Q/7TA2FIHFwn+Ooz0O5NkykGGX03+1y+k8GX/vaKO9uXe/0Af/3SdW++knV8IousQGAAA=&lt;/values&gt;
+    &lt;/sys_hub_action_instance_v2&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=2aef0a64839b26505d88c4d0deaad3b1"/&gt;
+    &lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=56ef0a64839b26505d88c4d0deaad373^sys_idNOT IN66ef0a64839b26505d88c4d0deaad3b0"/&gt;
+    &lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;
+        &lt;attributes&gt;labelCacheCleanUpExecuted=true&lt;/attributes&gt;
+        &lt;block display_value=""&gt;6618c2a8835b26505d88c4d0deaad390&lt;/block&gt;
+        &lt;comment/&gt;
+        &lt;connected_to/&gt;
+        &lt;decision_table/&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Copy of Global Create Event"&gt;56ef0a64839b26505d88c4d0deaad373&lt;/flow&gt;
+        &lt;flow_variables_assigned/&gt;
+        &lt;generation_source/&gt;
+        &lt;logic_definition display_value="Assign Subflow Outputs"&gt;df4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;outputs_assigned/&gt;
+        &lt;parent_ui_id/&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:47&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;66ef0a64839b26505d88c4d0deaad3b0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:47&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;a1f25caf-0d74-4310-a222-38d70924836f&lt;/ui_id&gt;
+        &lt;updation_source/&gt;
+        &lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;
+        &lt;workflow_reference/&gt;
+    &lt;/sys_hub_flow_logic_instance_v2&gt;
+    &lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_hub_flow_variable action="delete_multiple" query="model=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_documentation action="INSERT_OR_UPDATE"&gt;
+        &lt;element&gt;instance&lt;/element&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;label&gt;Instance&lt;/label&gt;
+        &lt;language&gt;en&lt;/language&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;plural/&gt;
+        &lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;22ef0a64839b26505d88c4d0deaad37f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;url/&gt;
+        &lt;url_target/&gt;
+    &lt;/sys_documentation&gt;
+    &lt;sys_documentation action="INSERT_OR_UPDATE"&gt;
+        &lt;element&gt;name&lt;/element&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;label&gt;Name&lt;/label&gt;
+        &lt;language&gt;en&lt;/language&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;plural/&gt;
+        &lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;26ef0a64839b26505d88c4d0deaad382&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;url/&gt;
+        &lt;url_target/&gt;
+    &lt;/sys_documentation&gt;
+    &lt;sys_documentation action="INSERT_OR_UPDATE"&gt;
+        &lt;element&gt;param1&lt;/element&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;label&gt;Param1&lt;/label&gt;
+        &lt;language&gt;en&lt;/language&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;plural/&gt;
+        &lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2aef0a64839b26505d88c4d0deaad386&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;url/&gt;
+        &lt;url_target/&gt;
+    &lt;/sys_documentation&gt;
+    &lt;sys_documentation action="INSERT_OR_UPDATE"&gt;
+        &lt;element&gt;table&lt;/element&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;label&gt;Table&lt;/label&gt;
+        &lt;language&gt;en&lt;/language&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373&lt;/name&gt;
+        &lt;plural/&gt;
+        &lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-08-08 09:59:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2eef0a64839b26505d88c4d0deaad389&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-08-08 09:59:46&lt;/sys_updated_on&gt;
+        &lt;url/&gt;
+        &lt;url_target/&gt;
+    &lt;/sys_documentation&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=56ef0a64839b26505d88c4d0deaad373"/&gt;
+    &lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=56ef0a64839b26505d88c4d0deaad373"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-656253011</payload_hash>
+        <record_name>Copy of Global Create Event</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 10:04:40</sys_created_on>
+        <sys_id>4601d26083972650d29556d6feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1988923c8cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 10:04:40</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>0601d2603497265064ffcd3bbc4a4f7b</update_guid>
+        <update_guid_history>0601d2603497265064ffcd3bbc4a4f7b:-656253011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 10:16:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>cf6c5c4d483145be9a4a309eb0c27d69</sys_id>
+        <sys_metadata>56ef0a64839b26505d88c4d0deaad373</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Global Create Event</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_scope_delete display_value="">875b5fd02a9b4112b984b91fb88024b1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_56ef0a64839b26505d88c4d0deaad373</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_56ef0a64839b26505d88c4d0deaad373">4601d26083972650d29556d6feaad37b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 10:16:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
