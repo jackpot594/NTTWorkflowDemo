@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1799060_nttworkf.AIChatBotProcessor</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AIChatBotProcessor</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AIChatBotProcessor = Class.create();
+AIChatBotProcessor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+  getAIResponse: function() {
+    var question = this.getParameter('sysparm_question');
+    
+    // OpenAI API配置
+    var apiKey = '你的OpenAI API Key';
+    var apiUrl = 'https://api.openai.com/v1/chat/completions';
+
+    // 构造请求体
+    var requestBody = JSON.stringify({
+      model: "gpt-3.5-turbo",
+      messages: [
+        { role: "user", content: question }
+      ]
+    });
+
+    // 初始化REST请求
+    var r = new sn_ws.RESTMessageV2();
+    r.setEndpoint(apiUrl);
+    r.setHttpMethod('POST');
+    r.setRequestHeader('Content-Type', 'application/json');
+    r.setRequestHeader('Authorization', 'Bearer ' + apiKey);
+    r.setRequestBody(requestBody);
+
+    var response = r.execute();
+    var resBody = response.getBody();
+    var resObj = JSON.parse(resBody);
+
+    var answer = '';
+    try {
+      answer = resObj.choices[0].message.content;
+    } catch(e) {
+      answer = "很抱歉，AI客服暂时无法回答您的问题。";
+    }
+    return answer;
+  }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-12 02:00:33</sys_created_on>
+        <sys_id>3338c1b1835baa50d29556d6feaad3de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AIChatBotProcessor</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name>sys_script_include_3338c1b1835baa50d29556d6feaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-12 02:02:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

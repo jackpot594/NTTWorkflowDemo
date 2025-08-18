@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>4</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2cfca2eb8383ee10d29556d6feaad3af</sp_column>
+        <sp_widget display_value="AI Chat Service">58c7c9b9831baa50d29556d6feaad394</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-12 02:19:15</sys_created_on>
+        <sys_id>6fdc8179835baa50d29556d6feaad33b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name>sp_instance_6fdc8179835baa50d29556d6feaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-12 02:56:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=6fdc8179835baa50d29556d6feaad33b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</application>
+        <file_path/>
+        <instance_id>cc690e0edb7eb59005ef172913961986</instance_id>
+        <instance_name>dev229847</instance_name>
+        <name>sp_instance_6fdc8179835baa50d29556d6feaad33b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>4</order><roles/><short_description/><size>md</size><sp_column display_value="1">2cfca2eb8383ee10d29556d6feaad3af</sp_column><sp_widget display_value="AI Chat Service">58c7c9b9831baa50d29556d6feaad394</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-12 02:19:15</sys_created_on><sys_id>6fdc8179835baa50d29556d6feaad33b</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package><sys_policy/><sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope><sys_update_name>sp_instance_6fdc8179835baa50d29556d6feaad33b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-12 02:56:42</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=6fdc8179835baa50d29556d6feaad33b"/></record_update>]]></payload>
+        <payload_hash>1923416325</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4b96e8d883d7a250d29556d6feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-12 02:56:42</sys_created_on>
+        <sys_id>08751535839baa50d29556d6feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1989c3569720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-12 02:56:42</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8c751535949baa509e7cf2ce83862663</update_guid>
+        <update_guid_history>8c751535949baa509e7cf2ce83862663:1923416325,276e81f9135baa50276d79a19ae12fe9:-1401948346,e3dc8179225baa50530b74f2a7f0513e:1923416325</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d0a59939835baa50d29556d6feaad3c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-12 02:57:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>93a2cce42baa49c08edfe99740746400</sys_id>
+        <sys_metadata>6fdc8179835baa50d29556d6feaad33b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_scope_delete display_value="">875b5fd02a9b4112b984b91fb88024b1</sys_scope_delete>
+        <sys_update_name>sp_instance_6fdc8179835baa50d29556d6feaad33b</sys_update_name>
+        <sys_update_version display_value="sp_instance_6fdc8179835baa50d29556d6feaad33b">08751535839baa50d29556d6feaad364</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-12 02:57:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope, spUtil) {
+  $scope.query = "";
+  $scope.filterRecords = function(){
+    if (!$scope.data.list) return [];
+    if (!$scope.query) return $scope.data.list;
+    return $scope.data.list.filter(function(row){
+      return Object.values(row).join(',').toLowerCase().indexOf($scope.query.toLowerCase()) > -1;
+    });
+  };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance_table</data_table>
+        <demo_data/>
+        <description>可搜索的Table</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Search Table</name>
+        <option_schema>[&#13;
+  {&#13;
+    "name": "table_name",&#13;
+    "label": "Table Name",&#13;
+    "type":"string"&#13;
+    "section": "General",&#13;
+    "hint": "Enter the ServiceNow table to query (e.g., incident)",&#13;
+    "default_value": "incident"&#13;
+  },&#13;
+  {&#13;
+    "name": "fields",&#13;
+    "label": "Fields (comma separated)",&#13;
+    "type": "string",&#13;
+    "section": "General",&#13;
+    "hint": "Fields to display in the table, separated by commas",&#13;
+    "default_value": "number,short_description,state"&#13;
+  },&#13;
+  {&#13;
+    "name": "limit",&#13;
+    "label": "Display Limit",&#13;
+    "type": "integer",&#13;
+    "section": "Behavior",&#13;
+    "hint": "Maximum number of records to display",&#13;
+    "default_value": 5&#13;
+  }&#13;
+]&#13;
+</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[data.list = [];
+data.error = '';
+var tableName = options.table_name || 'incident';
+// 支持自定义字段数组
+var fieldNames = (options.fields || 'number,short_description,state').split(',').map(function(x){ return x.trim(); });
+// 可选条数（传参或默认5条）
+var displayLimit = options.limit || 5;
+
+try {
+  var gr = new GlideRecord(tableName);
+  gr.query();
+  var count = 0;
+  while (gr.next()) {
+    if (count >= displayLimit) break;   // 限制条数
+    var row = {};
+    fieldNames.forEach(function(fld){
+      row[fld] = gr.getDisplayValue(fld);
+    });
+    data.list.push(row);
+    count++;
+  }
+  data.fields = fieldNames;
+} catch(e){
+  data.error = "Error: " + e.message;
+  data.list = [];
+  data.fields = [];
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-11 08:38:38</sys_created_on>
+        <sys_id>0f48996983576a50d29556d6feaad309</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Search Table</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name>sp_widget_0f48996983576a50d29556d6feaad309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-11 09:55:07</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.error" class="alert alert-danger">{{data.error}}</div>
+<div ng-if="!data.error">
+  <input type="text" ng-model="query" placeholder="搜索工单编号..." class="form-control" style="width:200px;margin-bottom:10px;" />
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th ng-repeat="col in data.fields">{{col}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="row in filterRecords()">
+        <td ng-repeat="col in data.fields">{{row[col]}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

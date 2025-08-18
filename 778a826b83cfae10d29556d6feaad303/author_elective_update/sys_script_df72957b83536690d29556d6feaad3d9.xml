@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>task_sla</collection>
+        <condition>current.stage.changesTo('breached') || current.stage.changesTo('in_progress')</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLA Timeout Handle</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	// 拿到被监控任务记录
+	gs.info('aaaaaa Business Rule Test:');
+	var gr = new GlideRecord(current.task.getRefRecord().getTableName());
+	if (gr.get(current.task.sys_id)) {
+		// 如果SLA变为breached
+		if (current.stage.changesTo('breached')) {
+			// priority降级
+			if (gr.priority < 4) { // 1高，4低
+				gr.priority = gr.priority + 1;
+			}
+			gr.update();
+		}
+		// 如果SLA还未超时（变为in_progress），则state=4，不过只对第一次进入有效，避免反复改状态
+		else if (current.stage.changesTo('in_progress')) {
+			gr.state = 4;
+			gr.update();
+		}
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 07:54:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df72957b83536690d29556d6feaad3d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLA Timeout Handle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name>sys_script_df72957b83536690d29556d6feaad3d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 08:09:38</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=df72957b83536690d29556d6feaad3d9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</application>
+        <file_path/>
+        <instance_id>cc690e0edb7eb59005ef172913961986</instance_id>
+        <instance_name>dev229847</instance_name>
+        <name>sys_script_df72957b83536690d29556d6feaad3d9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;task_sla&lt;/collection&gt;&lt;condition&gt;current.stage.changesTo('breached') || current.stage.changesTo('in_progress')&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLA Timeout Handle&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	// 拿到被监控任务记录
+	gs.info('aaaaaa Business Rule Test:');
+	var gr = new GlideRecord(current.task.getRefRecord().getTableName());
+	if (gr.get(current.task.sys_id)) {
+		// 如果SLA变为breached
+		if (current.stage.changesTo('breached')) {
+			// priority降级
+			if (gr.priority &lt; 4) { // 1高，4低
+				gr.priority = gr.priority + 1;
+			}
+			gr.update();
+		}
+		// 如果SLA还未超时（变为in_progress），则state=4，不过只对第一次进入有效，避免反复改状态
+		else if (current.stage.changesTo('in_progress')) {
+			gr.state = 4;
+			gr.update();
+		}
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-18 07:54:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;df72957b83536690d29556d6feaad3d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLA Timeout Handle&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NTTWorkflowDemo"&gt;778a826b83cfae10d29556d6feaad303&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_df72957b83536690d29556d6feaad3d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-18 08:09:38&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=df72957b83536690d29556d6feaad3d9"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1853122157</payload_hash>
+        <record_name>SLA Timeout Handle</record_name>
+        <reverted_from/>
+        <source>4b96e8d883d7a250d29556d6feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 08:09:39</sys_created_on>
+        <sys_id>f29655fb83536690d29556d6feaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198bc3a12430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 08:09:39</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>a69655fb32536690a9d406c080252064</update_guid>
+        <update_guid_history>a69655fb32536690a9d406c080252064:1853122157,5d3351bb2a53669009efe1e60e118bcd:565845252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 08:12:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>2d5467f57d1842de93203514356c5104</sys_id>
+        <sys_metadata>df72957b83536690d29556d6feaad3d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLA Timeout Handle</sys_name>
+        <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
+        <sys_parent display_value="Task SLA">9119e7b704f12210559073c06a02f7e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_scope_delete display_value="">875b5fd02a9b4112b984b91fb88024b1</sys_scope_delete>
+        <sys_update_name>sys_script_df72957b83536690d29556d6feaad3d9</sys_update_name>
+        <sys_update_version display_value="sys_script_df72957b83536690d29556d6feaad3d9">f29655fb83536690d29556d6feaad365</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 08:12:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

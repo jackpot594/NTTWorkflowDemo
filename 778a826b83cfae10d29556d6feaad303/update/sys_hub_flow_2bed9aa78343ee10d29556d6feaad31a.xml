@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=509773000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1103929000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>nttworkflow</internal_name>
-        <label_cache>[{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"tricket_number","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.u_tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"u_tricket_number","usedInstances":{"e66a4f74-b65d-4715-9410-2180d7b83e33":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_updated_by","label":"Trigger - Inbound Email➛Email Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_updated_by","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.direct","label":"Trigger - Inbound Email➛Email Record➛To","reference":"","reference_display":"To","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"direct","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.reply_to","label":"Trigger - Inbound Email➛Email Record➛Reply to","reference":"","reference_display":"Reply to","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"reply_to","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_created_by","label":"Trigger - Inbound Email➛Email Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_created_by","usedInstances":{}},{"name":"Inbound Email_1.inbound_email.sys_id","label":"Trigger - Inbound Email➛Email Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_email","column_name":"sys_id","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"]}},{"name":"Inbound Email_1.inbound_email.recipients","label":"Trigger - Inbound Email➛Email Record➛Recipients","reference":"","reference_display":"Recipients","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"recipients","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to",null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.target_table_name","label":"Trigger - Inbound Email➛NTTWorkflow Table","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number","u_sender"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to"],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null,"to"]},"attributes":{"test_input_hidden":"true"}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record","label":"2 - Create Record➛NTTWorkflow Task Record","reference":"x_1799060_nttworkf_nttworkflow_task","reference_display":"NTTWorkflow Task","type":"reference","base_type":"reference","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger - Inbound Email➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛NTTWorkflow Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":[null]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛NTTWorkflow Record","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"reference","base_type":"reference","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Inbound Email_1.inbound_email.blind_copied","label":"Trigger - Inbound Email➛Email Record➛Blind copied","reference":"","reference_display":"Blind copied","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"blind_copied","usedInstances":{"c1ed0212-3c4d-4772-9bbe-7b51bc956bf5":["priority"]}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.target_record.priority","label":"Trigger - Inbound Email➛NTTWorkflow Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"priority","choices":[{"label":"1","used":false,"image":"","reference":false,"rawLabel":"1","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"2","used":false,"image":"","reference":false,"rawLabel":"2","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"3","used":false,"image":"","reference":false,"rawLabel":"3","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"4","used":false,"image":"","reference":false,"rawLabel":"4","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}}],"usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]}}]</label_cache>
+        <label_cache>[{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.sys_id","label":"2 - Create Record➛NTTWorkflow Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"sys_id","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"tricket_number","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.u_tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"u_tricket_number","usedInstances":{"e66a4f74-b65d-4715-9410-2180d7b83e33":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_updated_by","label":"Trigger - Inbound Email➛Email Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_updated_by","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.direct","label":"Trigger - Inbound Email➛Email Record➛To","reference":"","reference_display":"To","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"direct","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.reply_to","label":"Trigger - Inbound Email➛Email Record➛Reply to","reference":"","reference_display":"Reply to","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"reply_to","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_created_by","label":"Trigger - Inbound Email➛Email Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_created_by","usedInstances":{}},{"name":"Inbound Email_1.inbound_email.sys_id","label":"Trigger - Inbound Email➛Email Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_email","column_name":"sys_id","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"]}},{"name":"Inbound Email_1.inbound_email.recipients","label":"Trigger - Inbound Email➛Email Record➛Recipients","reference":"","reference_display":"Recipients","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"recipients","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to",null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.target_table_name","label":"Trigger - Inbound Email➛NTTWorkflow Table","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number","u_sender"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to"],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null,"to"]},"attributes":{"test_input_hidden":"true"}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record","label":"2 - Create Record➛NTTWorkflow Task Record","reference":"x_1799060_nttworkf_nttworkflow_task","reference_display":"NTTWorkflow Task","type":"reference","base_type":"reference","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["record"],"d6d0a733-6a70-4925-ab3b-7eb9ac386565":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger - Inbound Email➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛NTTWorkflow Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":[null]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛NTTWorkflow Record","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"reference","base_type":"reference","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Inbound Email_1.inbound_email.blind_copied","label":"Trigger - Inbound Email➛Email Record➛Blind copied","reference":"","reference_display":"Blind copied","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"blind_copied","usedInstances":{"c1ed0212-3c4d-4772-9bbe-7b51bc956bf5":["priority"]}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.target_record.priority","label":"Trigger - Inbound Email➛NTTWorkflow Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"priority","choices":[{"label":"1","used":false,"image":"","reference":false,"rawLabel":"1","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"2","used":false,"image":"","reference":false,"rawLabel":"2","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"3","used":false,"image":"","reference":false,"rawLabel":"3","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"4","used":false,"image":"","reference":false,"rawLabel":"4","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}}],"usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]}},{"name":"flow_variable.link","label":"Flow Variables➛Link","type":"string","base_type":"string","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b08c74e7-738d-4b5e-9458-b1af74a99baa"}}]</label_cache>
         <master_snapshot>0372573383cb2250d29556d6feaad3f9</master_snapshot>
         <master_snapshot_digest/>
         <name>NTTWorkflow</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2bed9aa78343ee10d29556d6feaad31a</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>NTTWorkflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NTTWorkflowDemo" source="x_1799060_nttworkf">778a826b83cfae10d29556d6feaad303</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name>sys_hub_flow_2bed9aa78343ee10d29556d6feaad31a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:21</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:58</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -53,7 +53,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=2bed9aa78343ee10d29556d6feaad31a"/>
     <sys_flow_email_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <email_conditions table="sys_email">body_textLIKEtricket^subjectLIKEntt<item endquery="false" field="body_text" goto="false" newquery="false" operator="LIKE" or="false" value="tricket"/>
+        <email_conditions table="sys_email">body_textLIKEticket^subjectLIKEntt<item endquery="false" field="body_text" goto="false" newquery="false" operator="LIKE" or="false" value="ticket"/>
             <item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="ntt"/>
         </email_conditions>
         <event_name>email.read</event_name>
@@ -67,11 +67,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b72973383cb2250d29556d6feaad39b</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:21</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:58</sys_updated_on>
         <target_table/>
         <trigger_definition/>
     </sys_flow_email_trigger>
@@ -696,12 +696,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:54:42</sys_created_on>
         <sys_id>7b52d33383cb2250d29556d6feaad368</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-07 01:27:31</sys_updated_on>
+        <sys_updated_on>2025-08-11 06:44:43</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9WWbU/bMBDHv4qV192UNoGyvps2kNCmIQHaXiAWOc6l8ebame20ZIjvvrOTtOkDHRVIY28QPl/v4X+/c3tzHwiagggmwemMckGYkhm3XEkTDAIuLWhJxXVdAnqs3c2ozKhVug4mORUGBkGu1ewaZqWgFpZGpTPQwWQYhoNgTkUFV7U5zzAYhpB05sKCS5ysBfeeeJWqrE4s3NnP559OrebsJ9jvpkp/APMmaS16s4KLTIMMJje3g6CkGuNal/V+44q7xMOTcBhG8ZiNo+EoCsM8hpQO49ERfTc+jvIxBtwjyeM12x0i9bvHLkBmkC2l2VZQA80upFgZCpwAxvywjEmsIr8qKnhek0XBWUF8JYYYS7Ultao0yYVavPUTujP8N9YUhy6/hhxQCeaKNLVJ/AeDnj3JuMHh1V3jXlnFGVyULnczM0tTAc2/TIlqJr80guA5g5xWwn5tZ4eWymBQKF3bro+Ok6tCLS67rGdceo3aS6EYFcsTtTj0tLJg/DA7GZK0wrG6TwXzUfDge0icLF0hbcqkqRod2tbOOIgWPsM0L+17Zvm8o/VhsNqGCz+5rRVwx6m/OIz/0R7+VZtqvhKuLbcn5WGMH4dpFCLhuxkfQ4/xrtGNYuxmv/1GnoHydQGk1FxpbmsyRe2lQ9qiFSc9xVREzd0ftGjCZaoqmTWMdw5mg+11sh8B+tWxPOeGN9n99ZMg/guyV1aVqK1iYAyX0214U6UEUHkwvNEeeA0mXb2DCTg36iVeAW11BS8ANaIcnzwKdd6HeluKJ5RrN1Xqt/8M5L8VDnLUYNCVBIYodPTYu9eaLLgt/AkPYOwbrxzx+f8B7d28GuvH9bG1l69/HS6hRIkvgaGMxG/A1kJ4SRKPxqE7Ee/ZCfwqnoJNGsFf9F1P3w1xBeKTo2gYuRWAdMxCir9ojjMWxelRbwV2tb+7PrtDjH6Xz3ztfVyics+3buqhxijGUdZshT6XTM1wWdHHVe7f/DX4T/7Pp/7lfp7c/gGR+yVGrgsAAA==</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/9WWbU/bMBDHv4qV192UNoGyvps2kNCmIQHaXiAWOc6l8ebame20ZIjvvrOTtOkDHRVIY28QPl/v4X+/c3tzHwiagggmwemMckGYkhm3XEkTDAIuLWhJxXVdAnqs3c2ozKhVug4mORUGBkGu1ewaZqWgFpZGpTPQwWQYhoNgTkUFV7U5zzAYhpB05sKCS5ysBfeeeJWqrE4s3NnP559OLWc/wX43VfoDmLdIa9GZFVxkGmQwubkdBCXVGNa6pPcbV9zlHZ6EwzCKx2wcDUdRGOYxpHQYj47ou/FxlI8x4B5FHi/Z7tCo3zw2ATKDbKnMtoAaaHYhxcpQ4AAw5odlTGIV+VVRwfOaLArOCuIrMcRYqi2pVaVJLtTirR/QneG/saY4dPk15IBKMFekqU3iPxj07EnGDc6u7hr3yirO4KJ0uZuRWZoKaP5lSlQz+aURBM8Z5LQS9ms7OrRUBoNC6dp2fXSYXBVqcdllPePSa9ReCsWoWJ6otZqnlQXjh9nJkKQVjtV9KpiPggffQ+Jk6QppUyZN1ejQtnbGQbTsGaZ5ad8zy+cdrA+D1TJc+MltbYA7Tv3FYfiP9uCv2lTzlXBtuT0pD2P8OEyjEAnfzfgYeox3jW4UYzf77TfyDJSvCyCl5kpzW5Mpai8d0hatOOkppiJq7v6gRRMuU1XJrGG8czAbbK+T/QjQr47lOTe8ye6vnwTxX5C9sqpEbRUDY7icbsObKiWAyoPhjfbAazDp6h1MwLlRL/EKaKsreAGoEeX45FGo8z7U21I8oVy7qVK//Wcg/61wkKMGg64kMESho8fevdZkwW3hT3gAY9945YjP/w9o7+bVWD+uj629fP3rcAklSnwJDGUkfgO2FsJLkng0Dt2JeM9O4FfxFGzSCP6i73r6bogrEJ8cRcPIrQCkYxZS/EVznLEoTo96K7Cr/d312R1i9Lt85mvv4xKVe751Uw81RjGOsmYr9LlkaobLij6ucv/mr8F/8n8+9S/38+T2Dy6L+ZCtCwAA</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>email</trigger_type>
         <updation_source/>
@@ -722,10 +722,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:54:42</sys_created_on>
         <sys_id>3752d33383cb2250d29556d6feaad36a</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>jackpotlzh123@outlook.com</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:05:26</sys_updated_on>
+        <sys_updated_on>2025-08-18 06:21:46</sys_updated_on>
         <ui_id>20f1b064-5577-47d1-9569-2b2d3e292439</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/91VUU/bMBD+K5Wfo8ppaKB9m0DVHhhIo2LSKETX+EItHCezHaCr+O8722mpGGhM2gvrU+/uu/P3nc+Xqw2Tgk1ZniIfT9K8zNIsG3E+OjpIl3m2TEciA8QDljANNRLSwVJhEYyE3YPqvPOxSA8nE57zQjv30Ji7avdHNQ+FA3tHaCFtq2B92SedzeffesRgHhHlSiphULPp1XXCWjB0jEPDppsXofeSVrBERdC5Z/2GCLduX/Wd7ucOzmKgMcLz4QnDR4daIBGpQFlMWA1agGvMmk2d6chhEMS5VusdYiW1o4LMYx+t/EnHHnGPq5CUlRhjO7PoGxbd1Qk4uKDKpetMDy1XjSzRxp4IrKBT7njfFwHnrZONjilBZp/dqK7WZ7ElbFdgez/k6SyRwNbr9Mx7GdXFqnn4umU5kzq0pA+qpgS1s8A5I5ed83w2DBXWVKiooW2lvi1a09zLkExc6uGtImMYJkaglbd6CKUnPqS2wnBG/pPgvgQjvYovVIaSnxJm1/ZYgbXPWqiJxY/OM4nKeg1FbINPKY1s3Sc64B57uk/J9jUI5JM3BytdPg9SeAB27yW0RjZGuvWi4zwT6Q2RIsYoCtdE12axfQcLNl2wU9kNvq/kZ9ALliximRA4hOqQpyI9yniGo5SL0WQ8zkVeIYDIxiLAw2UGOHWgoNsywe0NKd5Z5unGOnC4Ixw6Ei0/xr+/2/9R4l8unj/Px3bxzCQqYV8ZmO3WwZoa5bCIA/Ri8/TBwWUf7LdP+q+2T5rz8PtAOyiK+/AraO9r88Yyuv4FetCnRZwHAAA=</values>
@@ -741,15 +741,15 @@
         <order>5</order>
         <parent_ui_id>9a317769-54fd-49be-812f-0781c4463918</parent_ui_id>
         <subflow display_value="Send email as admin">904514508397a250d29556d6feaad3d6</subflow>
-        <subflow_inputs>H4sIAAAAAAAA/+2W207bQBCGXyXydRx8Wh9yVUqLWglKBZQbQNEeZolh7TX2GgiId+84dkIIIo0AISpxZe/szM7M729sH99ZqbCGlnAC4gbEif0koh5xhJcQEopQAqXCB9/qWznNAD2NxvsrqupmcU75RaGNuh27nv9F10ZpfTHgOkMfkVaFopOjNVz5OFWihNwaHp/2rYKWmMpAaQ3vlrbMpICRogwUnnhgyjQ/w/B1O5gFHuqldppj8b6aHahL0WR3+xbcGMgFYAJJVQV9K6O5oEaXE2toyhoNJVCxl6vJ3GOc5gYPsxrfmyq9xZNjx3EaTwnYCYd2d74cdUq1Zj7WKYe9wqQ6by2GMtXFcK3qLP/Vlt5oDJLWysw0Rktd4XlQNEU3ZXQ1yYOxvt6fJdxO82l/3abSnKr5ihpUgdUGqkb+Oj1c0qa17Cw/A1CQYcZRRosCLaOi1FfpNAsWnQ3OFC4GUulrrK5Kz/IB5U2HAxSTDrbR/m1qPqJl2rS7i8dgcJPuT55e1vCzecYsSKRPw9COozixA8HwzvGIDU4ouUxCh0Ji3U+lHV3WTVOtSJ0co1ZRdKh4mRZmE0u4gq7z+343CslqkOgDO5wvjMJT4t8I7DXqmQVubS0V9wzY3mqwO8sn2e9HtsM5Dz2I7ETI2A5c17djzxVINkmCgIsopPzVZBMkiTxLkrNANnsftNcoaBb4dZFttgpu/xPuDwY3gQiwY8eGgMrmtR3YTFJmu7EQDCLiRSR+NdxiJUuu+0BPVbNz4GYB8P3fm73vZanLp6Qvbr3Vb8o/ypwHzut8Uvgz6AefPywfi3yAJIxcEtpBEHt2EMXUpq7gNmdUSBIwySPxavLdYCVS8cJ7U4vJAvYnteP4vOg1LdkmzScZh1Jrw1Dgi+mmOLFOWjeYD0Ibxdor/FZAK+ghZVi+mvTGiJuCHqrML8C0vhtF6/t0uroKnsnQ23hRjpeN6Y/D3Z3ZkK6h6Py71Er6WOBuPMcmUw/DSd5qOENC/PA/n85Omsez2T2C9/kmRTyULo1s8BIczxjwmyQiafOIsUAyJ0p858WTefoXzazPO1cPAAA=</subflow_inputs>
+        <subflow_inputs>H4sIAAAAAAAA/+2W207bQBCGXyXydZz6tD5wVUqLWqknAeUGULSHWbKw9rr2mhIQ795x7IQQRBoBQlTiyt7ZmZ2Z39/YPrp2lHC2HOFFxI+Il4ZZQgPiiSAjJBaxBEpFCKEzdAqaA3pag/cXVDft4ozy89JYfTXxg/C9aaw25nzETY4+QtWlptPDDVz5RGlRQeFsHZ0MnZJWmMpC5Wxdr2zZaQljTRloPHHfVqo4xfBNO5gHHpiVdtpj8b6eH2gq0Wb3hw5cWigEYAJJdQ1DJ6eFoNZUU2fLVg0aKqDiR6GnC4+JKiwe5rS+l7W6wpNTz/NaTwnYCYdud7Ec90p1Zj4xisOP0ipTdBZLme5juNFNXnzvSm81Bkkbbecao6Wp8Two26LbMvqa5P7E/NmbJ9xVxay/flMbTvViRS2qwBoLdSt/ow5WtOksX1efAWjIMeM4p2WJlnFZmQs1y4JF56NTjYuR1OYPVler02JEedvhCMWko120f5yZD2ml2na/4TEY3Kb7VajfDXxpnzGLMhnSOHbTJM3cSDC88wLighdLLrPYo5A5NzNpx7+btqlOpF6OcacoOtS8UqXdxhIuoO/8ZtiPQrYeJHrLDudLo3Cf+GcCe4N65oE7OyvFPQB2sB7s3vJG9suR7XHO4wASNxMydSPfD9008AWSTbIo4iKJKX8y2QRJIg+S5C2RzV4G7Q0Kmgd+WGabrYM7fIP7lcFNIAHs2HMhorJ9bUcuk5S5fioEg4QECUmfDLdYy5Lv39JTN+wMuF0CfO/n9uBTVZnqPunLW8/1m/KPMheBizrvFf4A+tHbD8vrIh8gixOfxG4UpYEbJSl1qS+4yxkVkkRM8kQ8mXw/WotUuvTeNGK6hP1x43khLwdtS65VxTTnUBljGQp8PtsUx85x5waLQeiiWHeFnxpoDQOkDMvX08EEcdMwsIqfg+1c35Wd6/3h6gt4IMHg3WNSPG5IPx98+zof0Q30XHyVOkHvytsP58Tm+nY0yXONZkxIGP/ns9lLc3cy+0fwMl+khMfSp4kLQYbDmQJ+kUQiXZ4wFknmJVnoPXouT/4CrPtD6VUPAAA=</subflow_inputs>
         <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 08:40:49</sys_created_on>
         <sys_id>4444709c831ba250d29556d6feaad356</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 01:59:13</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:50</sys_updated_on>
         <ui_id>e66a4f74-b65d-4715-9410-2180d7b83e33</ui_id>
         <updation_source/>
         <wait_for_completion>true</wait_for_completion>
@@ -763,15 +763,15 @@
         <order>3</order>
         <parent_ui_id>f3a6eb18-dbc6-4bdf-b3bf-1b0610616e4a</parent_ui_id>
         <subflow display_value="Send email as admin">904514508397a250d29556d6feaad3d6</subflow>
-        <subflow_inputs>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</subflow_inputs>
+        <subflow_inputs>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</subflow_inputs>
         <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 06:35:25</sys_created_on>
         <sys_id>db8758148397a250d29556d6feaad32b</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:15</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:50</sys_updated_on>
         <ui_id>3a037bf2-603e-4b9e-a2ba-d10087510589</ui_id>
         <updation_source/>
         <wait_for_completion>true</wait_for_completion>
@@ -795,10 +795,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 08:40:49</sys_created_on>
         <sys_id>4844709c831ba250d29556d6feaad355</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:18</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:54</sys_updated_on>
         <ui_id>9a317769-54fd-49be-812f-0781c4463918</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YUU/jSAz+K6eIR+ilbUqhbwiuEqcDpGuXlwuKJhm3nb1pJptMCmzV/372ZJImKewubJeXq1RVie3x2P6+sZOsHZXrJNfZVF1kmZjHzuifh2NHxCTD67UTsyU4IycIMs10ngWBc+ysmMxJuPadFaSZULHvjHyn23F959h3MkgFk+Ir06gZq3TJtNH/Obm7NQaRWiYSnu7CzxCRak0iDsXVUbQqL8yqz2zFOpLF885EpyKeGw9HK6Pznc0G75aQZWz+zvWbdkCTaAFLVvgYS/V4BVQYSEfjq4vL6fXd7WR6Mf00acTtO9exhjmkNj8OnaOZAMmDGYtAZ4XxRNA2NywZk9AsW/u+7+Ri+pzAXywESbcj+iv9+eQR/1JgPFCxfK4sZkxmUOkXItaVqpIWniu5aDnlMGO51IEBdHe1bER0SamWKhYRuAGkqUqDgkOVoU7zreGSxZxplb4Wt0p5EZDRdWvrngIJ8VwvKqXn0v8Gfw3Msa5bYK34Z6tvPe61+FnT55tqf2Oz/cXl7327/G4FACHwjbPROdKY+Q9V/01luDBp/zYxrWj/xcjFp1h8yeGaVwbDcy+M+l7v5Dw65yee54UnrD/rnXDuhadswNzusN8CvMkk2+RKk0gFpjTUViubVmMpbUHCEmIdLFmSIHOCJFUrUYcL21ZnLlHUmSEWATdgdIpydDBT1tlidM+wKYcGgeQ9bSXOpXyJ1aqZ3xuO8+mgTqgNzhUuskSy5/vDeDmMl8N4OYyXw3g5jJc9jpdoISRPITbvNYLjhEGhfb+hnlp7s2la4xtRFqUi0USQFepNEqUQ+YeE3fFoW8XPOEWThKXoTkOKgmYCpgMZtmPNSVujB25mGzzu+QJ/UU/MxU5XD+474bSjz8VVMa9pW/Qgqh0NBeVOIGWBSs1lUfMmArrtzEDujLrHDjxpiDnwKrbqwFUS4tsd0q0SEMGKXZEimfiKvj2X7GaAiUQ28+o2sI8gJVpKRHCXUP0KiSaOW6WS+TK+LYKnh5ei09xv62klV82nGlTkGW4ECSVD0dlQZ5OFevy7jGQsYpO3VUoVMVndMY3NPsw1ZAUwGH/wJSeDYl/rOijCJnJ+hy3FQPpAsmTlhg2uVGG0qXJTHaad06VbDi1fenvki/u/Y8xDC5hizJTARMMz7vX7MAh52HO7bnjaBYYX/eFZNxrO3BpwfxCR7ETdotf4mmQBVOUW5YGnqu8JwrOPg3C/SNljWi9P8+BWwNQnP8qbMx/1r01703nfO+edH+g9L3UK6kg2UIjJHa+Nye7um6DpP+2W8tpobHN3iot/H9O2JX85H7rds2EU9U+B+DsYDPrh0HMZ91zOeVjj7za8nXgtb0OlJLD41xD3Y2ZV99XWYwv/4QPrRdI8EEcK+mUFzhwiQd8HpiS7Lj9ak+IZ4RJRXfSo0n+J31vZ5j8E3RgH/hYAAA==</values>
@@ -822,16 +822,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 08:40:49</sys_created_on>
         <sys_id>c844709c831ba250d29556d6feaad351</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:18</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:54</sys_updated_on>
         <ui_id>f3a6eb18-dbc6-4bdf-b3bf-1b0610616e4a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2bed9aa78343ee10d29556d6feaad31a^sys_idNOT IN0786f42983936a50d29556d6feaad3dc,0ab97bbb838f2250d29556d6feaad329,138758148397a250d29556d6feaad331,239e501083d7a250d29556d6feaad3ee,2f9e501083d7a250d29556d6feaad3ee,3d4d905c8397a250d29556d6feaad341,46b97bbb838f2250d29556d6feaad329,67f3b92883d32650d29556d6feaad300,6b9e501083d7a250d29556d6feaad3ee,6ff3792883d32650d29556d6feaad3ff,70db823383472250d29556d6feaad342,82b97bbb838f2250d29556d6feaad329,a09f185083d7a250d29556d6feaad373,a79e501083d7a250d29556d6feaad3ee,a8db466883572650d29556d6feaad3ad,b352d33383cb2250d29556d6feaad370,d38758148397a250d29556d6feaad331,e39e501083d7a250d29556d6feaad3ee,ef9e501083d7a250d29556d6feaad3ee,ff52d33383cb2250d29556d6feaad36f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2bed9aa78343ee10d29556d6feaad31a^sys_idNOT IN0786f42983936a50d29556d6feaad3dc,0ab97bbb838f2250d29556d6feaad329,138758148397a250d29556d6feaad331,239e501083d7a250d29556d6feaad3ee,24f58c7383db2690d29556d6feaad3c8,2f9e501083d7a250d29556d6feaad3ee,3d4d905c8397a250d29556d6feaad341,46b97bbb838f2250d29556d6feaad329,60f58c7383db2690d29556d6feaad3c8,67f3b92883d32650d29556d6feaad300,6b9e501083d7a250d29556d6feaad3ee,6ff3792883d32650d29556d6feaad3ff,70db823383472250d29556d6feaad342,82b97bbb838f2250d29556d6feaad329,92d7f47a83dbee50d29556d6feaad327,a09f185083d7a250d29556d6feaad373,a79e501083d7a250d29556d6feaad3ee,a8db466883572650d29556d6feaad3ad,a8f58c7383db2690d29556d6feaad3c7,b352d33383cb2250d29556d6feaad370,d38758148397a250d29556d6feaad331,e39e501083d7a250d29556d6feaad3ee,ef9e501083d7a250d29556d6feaad3ee,ff52d33383cb2250d29556d6feaad36f"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
         <extra_info/>
@@ -904,6 +904,23 @@
         <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{20f1b064-5577-47d1-9569-2b2d3e292439.record.tricket_number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 02:17:15</sys_created_on>
+        <sys_id>24f58c7383db2690d29556d6feaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 02:17:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0778f1ec-9def-42b0-9388-4ff06f7cb471</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Inbound Email_1.inbound_email.sys_updated_by}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -950,6 +967,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>fabd20de-e5c9-46dd-97c5-86deeab8dd0a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{20f1b064-5577-47d1-9569-2b2d3e292439.record.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 02:17:15</sys_created_on>
+        <sys_id>60f58c7383db2690d29556d6feaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 02:17:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e8b4472c-8525-41cf-8a49-e422bacd6b81</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
@@ -1040,6 +1074,23 @@
         <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{flow_variable.link}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-15 03:21:20</sys_created_on>
+        <sys_id>92d7f47a83dbee50d29556d6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 03:21:20</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c15a8b56-6874-40b7-8baf-26bb2b296722</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Inbound Email_1.from_address}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -1086,6 +1137,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>2c383169-eeac-444d-b584-f90f78a77190</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{20f1b064-5577-47d1-9569-2b2d3e292439.record.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 02:17:15</sys_created_on>
+        <sys_id>a8f58c7383db2690d29556d6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 02:17:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c9f2137d-feb5-473b-8d9b-49ee0d7e9088</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>2bed9aa78343ee10d29556d6feaad31a</attached_to>
@@ -1172,7 +1240,90 @@
         <transform_definition_id/>
         <ui_id>e542cc66-457b-4f3e-8235-ae67223e46d9</ui_id>
     </sys_hub_pill_compound>
-    <sys_hub_flow_variable action="delete_multiple" query="model=2bed9aa78343ee10d29556d6feaad31a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2bed9aa78343ee10d29556d6feaad31a^sys_idNOT INcad7f47a83dbee50d29556d6feaad310"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b08c74e7-738d-4b5e-9458-b1af74a99baa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>link</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Link</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NTTWorkflow">2bed9aa78343ee10d29556d6feaad31a</model>
+        <model_id>2bed9aa78343ee10d29556d6feaad31a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_2bed9aa78343ee10d29556d6feaad31a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-15 03:21:20</sys_created_on>
+        <sys_id>cad7f47a83dbee50d29556d6feaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 03:21:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>from_address</element>
         <help/>
@@ -1350,7 +1501,7 @@
         <description>NTT需求测试流程</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>nttworkflow</internal_name>
-        <label_cache>[{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"tricket_number","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.u_tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"u_tricket_number","usedInstances":{"e66a4f74-b65d-4715-9410-2180d7b83e33":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_updated_by","label":"Trigger - Inbound Email➛Email Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_updated_by","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.direct","label":"Trigger - Inbound Email➛Email Record➛To","reference":"","reference_display":"To","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"direct","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.reply_to","label":"Trigger - Inbound Email➛Email Record➛Reply to","reference":"","reference_display":"Reply to","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"reply_to","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_created_by","label":"Trigger - Inbound Email➛Email Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_created_by","usedInstances":{}},{"name":"Inbound Email_1.inbound_email.sys_id","label":"Trigger - Inbound Email➛Email Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_email","column_name":"sys_id","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"]}},{"name":"Inbound Email_1.inbound_email.recipients","label":"Trigger - Inbound Email➛Email Record➛Recipients","reference":"","reference_display":"Recipients","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"recipients","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to",null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.target_table_name","label":"Trigger - Inbound Email➛NTTWorkflow Table","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number","u_sender"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to"],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null,"to"]},"attributes":{"test_input_hidden":"true"}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record","label":"2 - Create Record➛NTTWorkflow Task Record","reference":"x_1799060_nttworkf_nttworkflow_task","reference_display":"NTTWorkflow Task","type":"reference","base_type":"reference","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger - Inbound Email➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛NTTWorkflow Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":[null]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛NTTWorkflow Record","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"reference","base_type":"reference","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Inbound Email_1.inbound_email.blind_copied","label":"Trigger - Inbound Email➛Email Record➛Blind copied","reference":"","reference_display":"Blind copied","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"blind_copied","usedInstances":{"c1ed0212-3c4d-4772-9bbe-7b51bc956bf5":["priority"]}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.target_record.priority","label":"Trigger - Inbound Email➛NTTWorkflow Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"priority","choices":[{"label":"1","used":false,"image":"","reference":false,"rawLabel":"1","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"2","used":false,"image":"","reference":false,"rawLabel":"2","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"3","used":false,"image":"","reference":false,"rawLabel":"3","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"4","used":false,"image":"","reference":false,"rawLabel":"4","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}}],"usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]}}]</label_cache>
+        <label_cache>[{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.sys_id","label":"2 - Create Record➛NTTWorkflow Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"sys_id","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"tricket_number","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.u_tricket_number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow_task","column_name":"u_tricket_number","usedInstances":{"e66a4f74-b65d-4715-9410-2180d7b83e33":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_updated_by","label":"Trigger - Inbound Email➛Email Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_updated_by","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.direct","label":"Trigger - Inbound Email➛Email Record➛To","reference":"","reference_display":"To","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"direct","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.reply_to","label":"Trigger - Inbound Email➛Email Record➛Reply to","reference":"","reference_display":"Reply to","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"reply_to","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.inbound_email.sys_created_by","label":"Trigger - Inbound Email➛Email Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_created_by","usedInstances":{}},{"name":"Inbound Email_1.inbound_email.sys_id","label":"Trigger - Inbound Email➛Email Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_email","column_name":"sys_id","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"]}},{"name":"Inbound Email_1.inbound_email.recipients","label":"Trigger - Inbound Email➛Email Record➛Recipients","reference":"","reference_display":"Recipients","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"recipients","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to",null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Inbound Email_1.target_table_name","label":"Trigger - Inbound Email➛NTTWorkflow Table","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number","u_sender"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["ah_to"],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null,"to"]},"attributes":{"test_input_hidden":"true"}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record.number","label":"2 - Create Record➛NTTWorkflow Task Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"20f1b064-5577-47d1-9569-2b2d3e292439.record","label":"2 - Create Record➛NTTWorkflow Task Record","reference":"x_1799060_nttworkf_nttworkflow_task","reference_display":"NTTWorkflow Task","type":"reference","base_type":"reference","usedInstances":{"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":["record"],"d6d0a733-6a70-4925-ab3b-7eb9ac386565":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger - Inbound Email➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user","usedInstances":{"20f1b064-5577-47d1-9569-2b2d3e292439":["number"],"a2c2e13b-1bcb-4fba-b618-076949ee9e3d":[null],"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛NTTWorkflow Record➛Tricket Number","reference":"","reference_display":"Tricket Number","type":"string","base_type":"string","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"number","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":[null]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛NTTWorkflow Record","reference":"x_1799060_nttworkf_nttworkflow","reference_display":"NTTWorkflow","type":"reference","base_type":"reference","usedInstances":{"4a03c09b-c298-421c-8283-8406b5f172cd":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Inbound Email_1.inbound_email.blind_copied","label":"Trigger - Inbound Email➛Email Record➛Blind copied","reference":"","reference_display":"Blind copied","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"blind_copied","usedInstances":{"c1ed0212-3c4d-4772-9bbe-7b51bc956bf5":["priority"]}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.target_record.priority","label":"Trigger - Inbound Email➛NTTWorkflow Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_1799060_nttworkf_nttworkflow","column_name":"priority","choices":[{"label":"1","used":false,"image":"","reference":false,"rawLabel":"1","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"2","used":false,"image":"","reference":false,"rawLabel":"2","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"3","used":false,"image":"","reference":false,"rawLabel":"3","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}},{"label":"4","used":false,"image":"","reference":false,"rawLabel":"4","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1799060_nttworkf_nttworkflow","dependent_values":[""]}}],"usedInstances":{"fe1a828d-7676-4ea7-9066-97d3610f9d2c":["condition"]}},{"name":"flow_variable.link","label":"Flow Variables➛Link","type":"string","base_type":"string","usedInstances":{"3a037bf2-603e-4b9e-a2ba-d10087510589":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b08c74e7-738d-4b5e-9458-b1af74a99baa"}}]</label_cache>
         <master>true</master>
         <name>NTTWorkflow</name>
         <natlang/>
@@ -1367,7 +1518,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0372573383cb2250d29556d6feaad3f9</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1375,7 +1526,7 @@
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:21</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:58</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -1459,14 +1610,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:12</sys_created_on>
         <sys_id>1f72973383cb2250d29556d6feaad347</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:20</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1543,14 +1694,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:11</sys_created_on>
         <sys_id>4372973383cb2250d29556d6feaad313</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:20</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1630,14 +1781,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:12</sys_created_on>
         <sys_id>4772973383cb2250d29556d6feaad32d</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:20</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1714,14 +1865,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:11</sys_created_on>
         <sys_id>8f72573383cb2250d29556d6feaad3fa</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:20</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1798,14 +1949,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:12</sys_created_on>
         <sys_id>9f72973383cb2250d29556d6feaad34e</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:20</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1882,14 +2033,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:12</sys_created_on>
         <sys_id>cb72973383cb2250d29556d6feaad340</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:21</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1966,14 +2117,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:11</sys_created_on>
         <sys_id>cf72973383cb2250d29556d6feaad319</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:20</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2001,12 +2152,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:12</sys_created_on>
         <sys_id>9772973383cb2250d29556d6feaad376</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-07 01:27:36</sys_updated_on>
+        <sys_updated_on>2025-08-11 06:44:49</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9WWbU/bMBDHv4qV192UNoGyvps2kNCmIQHaXiAWOc6l8ebame20ZIjvvrOTtOkDHRVIY28QPl/v4X+/c3tzHwiagggmwemMckGYkhm3XEkTDAIuLWhJxXVdAnqs3c2ozKhVug4mORUGBkGu1ewaZqWgFpZGpTPQwWQYhoNgTkUFV7U5zzAYhpB05sKCS5ysBfeeeJWqrE4s3NnP559OrebsJ9jvpkp/APMmaS16s4KLTIMMJje3g6CkGuNal/V+44q7xMOTcBhG8ZiNo+EoCsM8hpQO49ERfTc+jvIxBtwjyeM12x0i9bvHLkBmkC2l2VZQA80upFgZCpwAxvywjEmsIr8qKnhek0XBWUF8JYYYS7Ultao0yYVavPUTujP8N9YUhy6/hhxQCeaKNLVJ/AeDnj3JuMHh1V3jXlnFGVyULnczM0tTAc2/TIlqJr80guA5g5xWwn5tZ4eWymBQKF3bro+Ok6tCLS67rGdceo3aS6EYFcsTtTj0tLJg/DA7GZK0wrG6TwXzUfDge0icLF0hbcqkqRod2tbOOIgWPsM0L+17Zvm8o/VhsNqGCz+5rRVwx6m/OIz/0R7+VZtqvhKuLbcn5WGMH4dpFCLhuxkfQ4/xrtGNYuxmv/1GnoHydQGk1FxpbmsyRe2lQ9qiFSc9xVREzd0ftGjCZaoqmTWMdw5mg+11sh8B+tWxPOeGN9n99ZMg/guyV1aVqK1iYAyX0214U6UEUHkwvNEeeA0mXb2DCTg36iVeAW11BS8ANaIcnzwKdd6HeluKJ5RrN1Xqt/8M5L8VDnLUYNCVBIYodPTYu9eaLLgt/AkPYOwbrxzx+f8B7d28GuvH9bG1l69/HS6hRIkvgaGMxG/A1kJ4SRKPxqE7Ee/ZCfwqnoJNGsFf9F1P3w1xBeKTo2gYuRWAdMxCir9ojjMWxelRbwV2tb+7PrtDjH6Xz3ztfVyics+3buqhxijGUdZshT6XTM1wWdHHVe7f/DX4T/7Pp/7lfp7c/gGR+yVGrgsAAA==</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/9WWbU/bMBDHv4qV192UNoGyvps2kNCmIQHaXiAWOc6l8ebame20ZIjvvrOTtOkDHRVIY28QPl/v4X+/c3tzHwiagggmwemMckGYkhm3XEkTDAIuLWhJxXVdAnqs3c2ozKhVug4mORUGBkGu1ewaZqWgFpZGpTPQwWQYhoNgTkUFV7U5zzAYhpB05sKCS5ysBfeeeJWqrE4s3NnP559OLWc/wX43VfoDmLdIa9GZFVxkGmQwubkdBCXVGNa6pPcbV9zlHZ6EwzCKx2wcDUdRGOYxpHQYj47ou/FxlI8x4B5FHi/Z7tCo3zw2ATKDbKnMtoAaaHYhxcpQ4AAw5odlTGIV+VVRwfOaLArOCuIrMcRYqi2pVaVJLtTirR/QneG/saY4dPk15IBKMFekqU3iPxj07EnGDc6u7hr3yirO4KJ0uZuRWZoKaP5lSlQz+aURBM8Z5LQS9ms7OrRUBoNC6dp2fXSYXBVqcdllPePSa9ReCsWoWJ6otZqnlQXjh9nJkKQVjtV9KpiPggffQ+Jk6QppUyZN1ejQtnbGQbTsGaZ5ad8zy+cdrA+D1TJc+MltbYA7Tv3FYfiP9uCv2lTzlXBtuT0pD2P8OEyjEAnfzfgYeox3jW4UYzf77TfyDJSvCyCl5kpzW5Mpai8d0hatOOkppiJq7v6gRRMuU1XJrGG8czAbbK+T/QjQr47lOTe8ye6vnwTxX5C9sqpEbRUDY7icbsObKiWAyoPhjfbAazDp6h1MwLlRL/EKaKsreAGoEeX45FGo8z7U21I8oVy7qVK//Wcg/61wkKMGg64kMESho8fevdZkwW3hT3gAY9945YjP/w9o7+bVWD+uj629fP3rcAklSnwJDGUkfgO2FsJLkng0Dt2JeM9O4FfxFGzSCP6i73r6bogrEJ8cRcPIrQCkYxZS/EVznLEoTo96K7Cr/d312R1i9Lt85mvv4xKVe751Uw81RjGOsmYr9LlkaobLij6ucv/mr8F/8n8+9S/38+T2Dy6L+ZCtCwAA</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>email</trigger_type>
         <updation_source/>
@@ -2046,15 +2197,15 @@
         <order>3</order>
         <parent_ui_id>f3a6eb18-dbc6-4bdf-b3bf-1b0610616e4a</parent_ui_id>
         <subflow display_value="Send email as admin">904514508397a250d29556d6feaad3d6</subflow>
-        <subflow_inputs>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</subflow_inputs>
+        <subflow_inputs>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</subflow_inputs>
         <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 06:35:33</sys_created_on>
         <sys_id>499798148397a250d29556d6feaad3da</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:20</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <ui_id>3a037bf2-603e-4b9e-a2ba-d10087510589</ui_id>
         <updation_source/>
         <wait_for_completion>true</wait_for_completion>
@@ -2068,15 +2219,15 @@
         <order>5</order>
         <parent_ui_id>9a317769-54fd-49be-812f-0781c4463918</parent_ui_id>
         <subflow display_value="Send email as admin">904514508397a250d29556d6feaad3d6</subflow>
-        <subflow_inputs>H4sIAAAAAAAA/+2WbXPTOBDHv0pGr+PgJ/mhr44rMNwMHAzt8YYymZW0akxly9hyIXT47qxrJw3J0EuYlrnh+irWauX979/7i/3uihWKHTHlxzyIuZ9FeQoh91WYc56oRCOAijBiU1ZBiZTpLF1fgun6xQeQF7V15ssiCKM/bOeMtRczaUvKUUVbG1i+3SNVLgqjGqzY0bv3U1ZDQ6UcNuzoamtrX60GBBpKPbVbwt2y7q9b1xTV+bh+MSafrIK2UX3xYMrws8NKIVXVYFqcshIqBc42S3bkmo4CDYJ6VZnlOmNRVI5uxvrcz23xhcplvu/3mRqpEYnD7no5H40awvoJOCAlnXRdM6bKhS0ktoMFCjV0xh1vxoaEV7UrbDUccSDM6rQ1XVn9PZjA1jdYPReKdC2JwLrvtNc+NqJPFvbTm5XKZ0V1bcq4aawEs16BI+tE53o9V6wrTrdcHiI7PqPBkirOS6hriszrxl4W11VIdDk7N7SYaWM/kbq2OK9mIPsOZ/QEYPaM4k+uw2+hKfp2X9Jt6HBf7p+q+NjhX/20iDjXESSJl6VZ7sVK0JUfcg/9REudJz5gzr5OWbtsjw207Y1R9ITmH7u+zcG20aD54HF/RDZF7R6TqEscvfg6HYHKbx9SuJlLKTeA2uXmYDz2qLzC4/h4S8YheIS34zFGHvj4j/PhSymTEFMvVzrz4iCIvCwMFPHB8ziWKk1A3gMfnKaU/3BK/Q0+xF0DskfpFSB/bhIiDkYkekDkd0CEY4rUse9hDLp/hcSe0CC8IFNKYMrDlGf3gIi6dU6D4GYy2058QOk2MHnz+vHkadPYZpeXza3DP7z+RdAKnJO1oh2JhwAUP3yC/Qb8IOZJGvDEi+Ms9OI0Aw8CJT0pQGkeCy1TdQ/8BPGt45pt/LNbtdyA56zz/UjWk75JzxXVspTYWOsEWX5xvanO2NmQhmuchlNi+MXXBqHFCQ0ryTfLyYKm1uCEfJcX6IbcR/WQu8voqOAHFSaPfqrGYbDv4d76LTnY972ZI+YLV5otyJ+fvnxxgzi/K8QTzqPk/8j4aPH3hI8m/5r3YyoTHUDqYZgT5BnS+1Gl2pOpELEWfppH/h3y/f4b4PmJfbUQAAA=</subflow_inputs>
+        <subflow_inputs>H4sIAAAAAAAA/+2WbXPTOBDHv0pGr+Pg54e+Oq7AcDNwMLTHG8pkVtKqEZUtY8uF0OG7s66dNCRDL2Fa5obrq1irlfe/f+8v9rsrpiU7YtKPkyBO/DwqMggTX4ZFkqQyVQggI4zYlFVQImU6S9eXYLp+8QHERW2d+bIIwugP2zlj7cVM2JJypG5rA8u3e6SKhTaywYodvXs/ZTU0VMphw46utrb21WqAo6HUU7sl3C3r/rp1ja7Ox/WLMflkFbSN7IsHU4afHVYSqaoC0+KUlVBJcLZZsiPXdBRoEOSryizXGQtdOboZ63M/t/oLlct93+8zFVIjAofd9XI+GjWE1RNwQEo64bpmTBULqwW2gwUSFXTGHW/GhoRXtdO2Go444GZ12pqurP4eTGDrG6yeC0W6lkRg3Xfaax8bUScL++nNSuUzXV2bMm4aK8CsV+DIOt65Xs8V6/TplstDZMdnNFhSxXkJdU2Red3YS31dhUSXs3NDi5ky9hOpa/V5NQPRdzijJwCzZxR/ch1+C43u231Jt6HDfbl/Kv2xw7/6aeFxoSJIUy/P8sKLJacrP0w89FMlVJH6gAX7OmXtsj020LY3RtETmn/s+jYH20aD5oPH/RHR6No9JlGXOHrxdToCVdw+pHAzl0JsALXLzcF47FF5hcfx8ZaMQ/AIb8djjDzw8R/nwxdCpCFmXiFV7sVBEHl5GEjiIyniWMgsBXEPfCQ0pckPp9Tf4IPfNSB7lF4B8ucmIfxgRKIHRH4HRBLMkDr2PYxB9a+Q2OMKuBfkUnLMkjBL8ntARN46p0FwM5ltxz+gcBuYvHn9ePK0aWyzy8vm1uEfXv8iaAXOyVrRjsRDAIofPsF+A34QizQLktSL4zz04iwHDwIpPMFBqiTmSmTyHvgJ4lvHNd/4Z7dyuQHPWef7kagnfZOe09WyFNhY6zhZfnG9Kc/Y2ZCGa5yGU3z4xdcGocUJDSvJN8vJgqbW4MRpcYFuSH1UD6m7iI4CflBg8uhnShyG+h7erd+Rg3nfWzlCvnCl2UL8+enLFzeAJ3cFeJokUfp/JHy0+Hu+R5N/zdsxE6kKIPMwLAjxHOntKDPliYzzWHE/KyL/Dul+/w1lr+pvsxAAAA==</subflow_inputs>
         <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 08:40:58</sys_created_on>
         <sys_id>9a44b09c831ba250d29556d6feaad3eb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 01:59:18</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <ui_id>e66a4f74-b65d-4715-9410-2180d7b83e33</ui_id>
         <updation_source/>
         <wait_for_completion>true</wait_for_completion>
@@ -2100,10 +2251,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 08:40:58</sys_created_on>
         <sys_id>9644b09c831ba250d29556d6feaad3e8</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:21</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <ui_id>f3a6eb18-dbc6-4bdf-b3bf-1b0610616e4a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -2127,16 +2278,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 08:40:58</sys_created_on>
         <sys_id>d644b09c831ba250d29556d6feaad3e9</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:21</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:57</sys_updated_on>
         <ui_id>9a317769-54fd-49be-812f-0781c4463918</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1ZXU/jOBT9K6uIx9JN2pRC3xBsJVYDlbadedmgyLHd4hnXydhOgan639dfcZOWjgamaHmIhKrkXtu5957jc2OyDvJSFqUUs/xSCLJgwejf+05AmLap63XAwBIHoyBNhQSyFGkadIIVoKU2rpNghbkgOUuCURJE3TAJOkkgMCeAkh9AKs8450sgjf/v6eTODID5sqD4aZJ9xVC71tqEsL06gavqwsz6ClagSwFbdKeSE7YwK5ysjC8JNht1t8RCgMUb5292A5rCB7wEdo0xzR+vsS4M5qPx9eXV7GZyN51dzj5PG3EnwQ2TeIG5yw/h7smcYIrSOYBYCjt4SvRjbkEx1kYzbZ0kSVCS2XOBP4EMU3070j/VeoleUf1wDFCaM/rsR8wBFdj7HwiT3uWtdmVvJzuLIjwHJZWpAXR/Nm1EdKVTrVwAanBTzHnOU8shP1DycjtwCRgCMueH4s45sgEZX1Sb95RSzBbywTvjUP9u1F8Dc1XXLbDO/LvVdysetfiiuearan/rsn3n8vd+Xv7QA6AR+Mne6J5IlfkvVf9VZbg0af8xNVJ0/GKU5DMj30t8g/yA4UWcwX7cO72AF+g0juPsFPTnvVOE4uwMDEAYDfs7gDeZ5ESuGgLz1JRGy6ofsyMs1VhM8RIzmS5BUSjmpAXPV6QOl5Kt7oIqU3eusEiRAaNry9FVmYLuFqMvQIlyZhAo3iIrrKT0JVbnzfxesZ3PBnVCbVRfQUQUFDx/adtL217a9tK2l7a9tO3liO0FPhCKOGb1c43WUuUqAFf3EnNFpsDsbcMjlY021AqvpjjpVLNeYIbya04oDfGnpP3GpiwCclJITbiVspiiVEb1xE3HaClngH4i7JudUgtfHdFKcm0X1aGpAcRHZQhA94IlyC5Tea5s5s06yJcW20/cwBCMok6AnyRmCCOfg98E3qI5MFEU8AYNuo1FwSbID/XEONTj5lilB12F/G3qqmfN82tFPKWfJZQlx1VlcgKxsIWxN5NCQ2PdUhPTjcxpuWR3NmcNjJWHGjDOcr2HWClUJLjQ2erwXS7z6UP++E8V6pgwUxjnpDkE1N8BqRQ6K6UOVCMsnsUVBUJso1Epp99LPcVG4h6W2kQ2L7Jm0/Fcds3plXS2veiDsVlUQTXI7EPd5fKtz3yvFPKFBfdSd3zuHZHPYcvotzL6fofADd1uxbkV5w9J5VZoW6H9sOy8d1DC4TmK+308yFDWC6MwO4swUBf94XkEh/OwBvVfmp7uLLTFu/EdwEFu39F3IJ9UxkqONE5HAv38mKA71K6OSITj4u1kpF7oprD4UtdPf8rePPcp/6ETn2kxbz3rBe/xKouZfgCqfWuK9vXQKOauwB16c6h2AELDMDofQtg/w3oHDAaDfjaMQ4DiECGU1XbANoi9qBzzszynGLAd6s9UXH+OdUbvQ/8j9uNjkz86KIMOrP9fCg++c64crX1pINH/e55p2031QVQ7nhUdCKybHnP+Te+brW3zHz6LCv9aHQAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0372573383cb2250d29556d6feaad3f9^sys_idNOT IN029f585083d7a250d29556d6feaad3ee,1997d8148397a250d29556d6feaad30b,1b72973383cb2250d29556d6feaad376,1f72973383cb2250d29556d6feaad376,291b7b3f838f2250d29556d6feaad36b,34aed01083d7a250d29556d6feaad342,446d945c8397a250d29556d6feaad3f7,4d04f92883d32650d29556d6feaad343,4d04f92883d32650d29556d6feaad344,5597d8148397a250d29556d6feaad30b,6096782983936a50d29556d6feaad35e,651b7b3f838f2250d29556d6feaad36b,74aed01083d7a250d29556d6feaad343,7caed01083d7a250d29556d6feaad342,9b72973383cb2250d29556d6feaad376,a11b7b3f838f2250d29556d6feaad36b,b0aed01083d7a250d29556d6feaad343,b8aed01083d7a250d29556d6feaad342,c6dbc66883572650d29556d6feaad31f,f4aed01083d7a250d29556d6feaad342"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0372573383cb2250d29556d6feaad3f9^sys_idNOT IN029f585083d7a250d29556d6feaad3ee,12f500b383db2690d29556d6feaad384,16f500b383db2690d29556d6feaad383,1997d8148397a250d29556d6feaad30b,1b72973383cb2250d29556d6feaad376,1f72973383cb2250d29556d6feaad376,21481d36839fee50d29556d6feaad317,291b7b3f838f2250d29556d6feaad36b,34aed01083d7a250d29556d6feaad342,446d945c8397a250d29556d6feaad3f7,4d04f92883d32650d29556d6feaad343,4d04f92883d32650d29556d6feaad344,5597d8148397a250d29556d6feaad30b,5af500b383db2690d29556d6feaad383,6096782983936a50d29556d6feaad35e,651b7b3f838f2250d29556d6feaad36b,74aed01083d7a250d29556d6feaad343,7caed01083d7a250d29556d6feaad342,9b72973383cb2250d29556d6feaad376,a11b7b3f838f2250d29556d6feaad36b,b0aed01083d7a250d29556d6feaad343,b8aed01083d7a250d29556d6feaad342,c6dbc66883572650d29556d6feaad31f,f4aed01083d7a250d29556d6feaad342"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
         <extra_info/>
@@ -2153,6 +2304,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>f19106e1-622c-44a7-aeed-949af3c53d47</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{20f1b064-5577-47d1-9569-2b2d3e292439.record.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 02:17:22</sys_created_on>
+        <sys_id>12f500b383db2690d29556d6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 02:17:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e8b4472c-8525-41cf-8a49-e422bacd6b81</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{20f1b064-5577-47d1-9569-2b2d3e292439.record.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 02:17:22</sys_created_on>
+        <sys_id>16f500b383db2690d29556d6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 02:17:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c9f2137d-feb5-473b-8d9b-49ee0d7e9088</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
@@ -2204,6 +2389,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>e542cc66-457b-4f3e-8235-ae67223e46d9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.link}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-15 05:43:01</sys_created_on>
+        <sys_id>21481d36839fee50d29556d6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 05:43:01</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c15a8b56-6874-40b7-8baf-26bb2b296722</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
@@ -2306,6 +2508,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>020fe36b-9b79-496d-9650-280ec6efce27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{20f1b064-5577-47d1-9569-2b2d3e292439.record.tricket_number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-18 02:17:22</sys_created_on>
+        <sys_id>5af500b383db2690d29556d6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-18 02:17:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0778f1ec-9def-42b0-9388-4ff06f7cb471</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>0372573383cb2250d29556d6feaad3f9</attached_to>
@@ -2477,7 +2696,90 @@
         <transform_definition_id/>
         <ui_id>fdc2db97-f9df-4df8-b970-66ad90fe7ae3</ui_id>
     </sys_hub_pill_compound>
-    <sys_hub_flow_variable action="delete_multiple" query="model=0372573383cb2250d29556d6feaad3f9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0372573383cb2250d29556d6feaad3f9^sys_idNOT INd948d936839fee50d29556d6feaad355"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b08c74e7-738d-4b5e-9458-b1af74a99baa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>link</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Link</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NTTWorkflow">0372573383cb2250d29556d6feaad3f9</model>
+        <model_id>0372573383cb2250d29556d6feaad3f9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_0372573383cb2250d29556d6feaad3f9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-15 05:43:00</sys_created_on>
+        <sys_id>d948d936839fee50d29556d6feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NTTWorkflowDemo">778a826b83cfae10d29556d6feaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 05:43:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>target_table_name</element>
         <help/>
@@ -2651,17 +2953,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5372973383cb2250d29556d6feaad39c","name":"plan","plan_signature":null}}</plan>
         <plan_id>2bed9aa78343ee10d29556d6feaad31a</plan_id>
-        <snapshot>0b07346983936a50d29556d6feaad3cb</snapshot>
+        <snapshot>eeedf07f83df2690d29556d6feaad3d3</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 06:55:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5372973383cb2250d29556d6feaad39c</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-11 06:03:21</sys_updated_on>
+        <sys_updated_on>2025-08-18 03:05:58</sys_updated_on>
         <trigger display_value="">5b72973383cb2250d29556d6feaad39b</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2bed9aa78343ee10d29556d6feaad31a"/>
